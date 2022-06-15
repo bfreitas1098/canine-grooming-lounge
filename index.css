@@ -42,6 +42,29 @@ body {
   font-weight: 500;
 }
 
+.carousel {
+  max-width: 70%;
+  min-height: 500px;
+  margin-left: 13.5rem;
+  box-shadow: var(--box-shadow);
+  border: solid #ffffff;
+  border-width: 40px 40px 10px;
+  border-radius: 15px;
+}
+
+.carousel-control-prev-icon {
+  margin-left: -150px;
+}
+
+.carousel-control-next-icon {
+  margin-left: 100px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  margin-top: 4rem;
+}
+
 #contact-details {
   background-color: var(--primary-color);
   max-width: 100%;
@@ -167,4 +190,16 @@ body {
 
 #services-button:hover {
   box-shadow: var(--box-shadow);
+}
+
+#reviews-section {
+  margin: 10rem 0 15rem;
+}
+
+#reviews-heading {
+  font-family: var(--title-font);
+  font-size: 2.5rem;
+  text-align: center;
+  line-height: 1.25;
+  margin-bottom: 12rem;
 }
