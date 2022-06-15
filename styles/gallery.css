@@ -42,6 +42,21 @@ body {
   font-weight: 500;
 }
 
+.btn {
+  max-width: 25%;
+  margin: 0 7rem 6rem 0;
+  box-shadow: var(--box-shadow);
+}
+
+.modal-dialog {
+  max-width: 800px !important;
+}
+
+.modal-header,
+.modal-footer {
+  border: none !important;
+}
+
 #contact-details {
   background-color: var(--primary-color);
   max-width: 100%;
@@ -81,15 +96,21 @@ body {
   margin: 8rem 0 0 6.5rem;
 }
 
+#gallery-container.row {
+  display: flex;
+}
+
 #gallery-container img {
-  margin: 0 7rem 6rem 0;
-  box-shadow: var(--box-shadow);
-  max-width: 25%;
   padding: 1.5rem;
 }
 
-#gallery-container.row {
-  display: flex;
+#pic11,
+#pic12 {
+  height: 100% !important;
+}
+
+#exampleModal img {
+  max-width: 100%;
 }
 
 #footer {
