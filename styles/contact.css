@@ -64,6 +64,19 @@ h4 {
   font-size: 1.5rem;
 }
 
+.hours-list {
+  text-align: center;
+  list-style: none;
+  position: relative;
+  top: 20px;
+  left: -30px;
+}
+
+.hours-list li {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
 .days {
   font-weight: 600;
 }
@@ -100,7 +113,7 @@ h4 {
 }
 
 #logo {
-  max-width: 8%;
+  max-width: 12%;
   margin-left: 30px;
 }
 
@@ -118,17 +131,8 @@ h4 {
   color: var(--secondary-color);
 }
 
-#hours-list {
-  text-align: center;
-  list-style: none;
-  position: relative;
-  top: 20px;
-  left: -215px;
-}
-
-#hours-list li {
-  font-size: 1.2rem;
-  margin-bottom: 10px;
+#hours-list-wrapper {
+  display: flex;
 }
 
 #map-image {
