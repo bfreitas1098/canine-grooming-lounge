@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Source+Sans+Pro&display=swap");
 
 :root {
   --title-font: "Architects Daughter", cursive;
@@ -8,7 +8,7 @@
 }
 
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   margin: 0;
   overflow-x: hidden;
 }
@@ -25,7 +25,7 @@ body {
 }
 
 .navbar ul {
-  margin-left: -430px;
+  margin-left: -380px;
 }
 
 .navbar li {
@@ -88,7 +88,7 @@ body {
 }
 
 #logo {
-  max-width: 10%;
+  max-width: 8%;
   margin-left: 30px;
 }
 
