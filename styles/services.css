@@ -96,7 +96,7 @@ h1 {
   color: #ffffff;
 }
 
-#contact-details {
+#contact-details-wrapper {
   background-color: var(--primary-color);
   max-width: 100%;
   display: flex;
@@ -181,7 +181,24 @@ h1 {
   top: 25px;
 }
 
-@media (min-width: 320px) and (max-width: 450px) and (orientation: portrait) {
+@media (min-width: 320px) and (max-width: 432px) and (orientation: portrait) {
+  .fa-phone {
+    position: relative;
+    top: -25px;
+    left: 55px;
+  }
+
+  .fa-envelope {
+    position: relative;
+    top: 1px;
+    left: 4px;
+  }
+
+  .fa-phone,
+  .fa-envelope {
+    font-size: 0.8rem;
+  }
+
   .navbar ul {
     margin-left: 0;
   }
@@ -194,13 +211,106 @@ h1 {
     overflow-x: hidden;
   }
 
+  #contact-details-wrapper {
+    height: 6rem;
+  }
+
+  #phone-number {
+    margin-left: -10rem;
+    position: relative;
+    top: -26px;
+    left: 210px;
+  }
+
+  #instagram i {
+    position: relative;
+    top: 33px;
+    left: -225px;
+  }
+
   #logo {
     max-width: 17%;
     margin: -15px 0 -10px;
   }
 }
 
-@media (min-width: 320px) and (max-width: 396px) and (orientation: portrait) {
+@media (min-width: 320px) and (max-width: 335px) and (orientation: portrait) {
+  #contact-details {
+    position: relative;
+    top: 5px;
+    left: 40px;
+  }
+
+  #instagram i {
+    position: relative;
+    top: 9px;
+    left: 70px;
+  }
+
+  #facebook i {
+    position: relative;
+    top: 8px;
+    left: 105px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 329px) and (orientation: portrait) {
+  .navbar-toggler {
+    margin: -2.5rem 0 0 16rem;
+    border: none !important;
+  }
+}
+
+@media (min-width: 330px) and (max-width: 345px) and (orientation: portrait) {
+  .navbar-toggler {
+    margin: -2.5rem 0 0 17rem;
+    border: none !important;
+  }
+}
+
+@media (min-width: 336px) and (max-width: 359px) and (orientation: portrait) {
+  #contact-details {
+    position: relative;
+    top: 5px;
+    left: 50px;
+  }
+
+  #facebook i {
+    position: relative;
+    top: 8px;
+    left: 140px;
+  }
+}
+
+@media (min-width: 346px) and (max-width: 359px) and (orientation: portrait) {
+  .navbar-toggler {
+    margin: -2.5rem 0 0 18rem;
+    border: none !important;
+  }
+}
+
+@media (min-width: 360px) and (max-width: 379px) and (orientation: portrait) {
+  .navbar-toggler {
+    margin: -2.5rem 0 0 19rem;
+    border: none !important;
+  }
+}
+
+@media (min-width: 360px) and (max-width: 432px) and (orientation: portrait) {
+  #contact-details {
+    position: relative;
+    top: -5px;
+    left: 50px;
+  }
+
+  #facebook i {
+    position: relative;
+    top: 34px;
+    left: -195px;
+  }
+}
+
+@media (min-width: 380px) and (max-width: 396px) and (orientation: portrait) {
   .navbar-toggler {
     margin: -2.5rem 0 0 20rem;
     border: none !important;
