@@ -130,11 +130,6 @@ body {
 }
 
 @media (min-width: 320px) and (max-width: 450px) and (orientation: portrait) {
-  .navbar-toggler {
-    margin: -2.5rem 0 0 19rem;
-    border: none !important;
-  }
-
   .navbar ul {
     margin-left: 0;
   }
@@ -143,8 +138,33 @@ body {
     font-size: 1rem;
   }
 
+  #wrapper {
+    overflow-x: hidden;
+  }
+
   #logo {
     max-width: 17%;
-    margin: -15px 0 -10px 0;
+    margin: -15px 0 -10px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 396px) and (orientation: portrait) {
+  .navbar-toggler {
+    margin: -2.5rem 0 0 20rem;
+    border: none !important;
+  }
+}
+
+@media (min-width: 397px) and (max-width: 420px) and (orientation: portrait) {
+  .navbar-toggler {
+    margin: -2.5rem 0 0 21rem;
+    border: none !important;
+  }
+}
+
+@media (min-width: 421px) and (max-width: 432px) and (orientation: portrait) {
+  .navbar-toggler {
+    margin: -2.5rem 0 0 22rem;
+    border: none !important;
   }
 }
