@@ -156,3 +156,23 @@ h4 {
   position: relative;
   top: 25px;
 }
+
+@media (min-width: 320px) and (max-width: 450px) and (orientation: portrait) {
+  .navbar-toggler {
+    margin: -2.5rem 0 0 19rem;
+    border: none !important;
+  }
+
+  .navbar ul {
+    margin-left: 0;
+  }
+
+  .navbar li {
+    font-size: 1rem;
+  }
+
+  #logo {
+    max-width: 17%;
+    margin: -15px 0 -10px 0;
+  }
+}
