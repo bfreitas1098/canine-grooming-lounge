@@ -47,9 +47,12 @@ body {
   min-height: 500px;
   margin-left: 13.6rem;
   box-shadow: var(--box-shadow);
+  background-color: #ffffff;
   border: solid #ffffff;
   border-width: 40px 40px 10px;
   border-radius: 15px;
+  position: relative;
+  top: 40px;
 }
 
 .carousel-control-prev-icon {
@@ -116,7 +119,7 @@ body {
 
 #business-name {
   text-align: left;
-  font-size: 115px;
+  font-size: 100px;
   line-height: 1.2;
   text-shadow: -1px -1px 20px #4aa5c9, 1px -1px 20px #4aa5c9,
     -1px 1px 20px #4aa5c9, 1px 1px 20px #4aa5c9;
@@ -126,7 +129,7 @@ body {
 }
 
 #tag-line {
-  font-size: 32px;
+  font-size: 28px;
   text-align: center !important;
   position: relative;
   top: 460px;
@@ -141,16 +144,16 @@ body {
 }
 
 #paw-print {
-  max-width: 6%;
+  max-width: 5%;
   position: relative;
-  top: -41px;
-  left: 197px;
+  top: -40px;
+  left: 195px;
 }
 
 #about {
   display: flex;
   flex-grow: 1;
-  margin-bottom: 10rem;
+  margin-bottom: 7rem;
 }
 
 #about-title {
@@ -192,7 +195,8 @@ body {
 }
 
 #reviews-section {
-  margin-top: 10rem;
+  height: 1100px;
+  background-color: #edf7fa;
 }
 
 #reviews-heading {
@@ -200,6 +204,8 @@ body {
   text-align: center;
   line-height: 1.5;
   margin-bottom: 12rem;
+  position: relative;
+  top: 100px;
 }
 
 #footer {
@@ -210,7 +216,6 @@ body {
   font-weight: 600;
   text-align: center;
   line-height: 1.75;
-  margin-top: 15rem;
 }
 
 #footer span {
@@ -337,13 +342,17 @@ body {
   #contact-details {
     position: relative;
     top: -5px;
-    left: 50px;
+    left: 58px;
   }
 
   #facebook i {
     position: relative;
     top: 33px;
     left: -195px;
+  }
+
+  #business-name {
+    font-size: 40px;
   }
 }
 
