@@ -107,47 +107,47 @@ body {
   background-color: var(--primary-color);
   display: flex;
   flex-grow: 1;
-  max-height: 36rem;
+  height: 30rem;
   color: #ffffff;
   font-family: var(--title-font);
-  text-transform: uppercase;
 }
 
 #hero-image {
-  max-width: 45%;
+  width: 800px;
+  height: 92%;
+  position: relative;
+  top: 38px;
 }
 
 #business-name {
   text-align: left;
+  text-transform: uppercase;
   font-size: 100px;
+  font-weight: 700;
   line-height: 1.2;
   text-shadow: -1px -1px 20px #4aa5c9, 1px -1px 20px #4aa5c9,
     -1px 1px 20px #4aa5c9, 1px 1px 20px #4aa5c9;
   position: relative;
-  top: 40px;
-  left: 80px;
+  top: 50px;
+  left: 170px;
 }
 
 #tag-line {
   font-size: 28px;
-  text-align: center !important;
+  text-align: center;
+  text-transform: uppercase;
+  font-style: italic;
   position: relative;
-  top: 460px;
-  left: -320px;
-  margin-left: -150px;
-}
-
-#business-name,
-#tag-line {
-  text-align: left;
-  font-weight: 700;
+  top: 418px;
+  left: -220px;
+  margin-left: -200px;
 }
 
 #paw-print {
-  max-width: 5%;
+  max-width: 3%;
   position: relative;
-  top: -40px;
-  left: 195px;
+  top: -36px;
+  left: 315px;
 }
 
 #about {
