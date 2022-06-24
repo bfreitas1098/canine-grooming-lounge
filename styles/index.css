@@ -255,9 +255,20 @@ body {
     border: 7px 5px;
   }
 
+  .carousel-control-prev-icon {
+    margin-left: -70px;
+  }
+
+  .carousel-control-next-icon {
+    position: relative;
+    left: 35px;
+    margin-left: 0;
+    z-index: 1;
+  }
+
   .carousel-control-prev-icon,
   .carousel-control-next-icon {
-    display: none;
+    margin-top: 2rem;
   }
 
   #wrapper {
@@ -378,7 +389,7 @@ body {
   }
 }
 
-@media (min-width: 360px) and (max-width: 379px) and (orientation: portrait) {
+@media (min-width: 360px) and (max-width: 375px) and (orientation: portrait) {
   .navbar-toggler {
     margin: -2.5rem 0 0 18rem;
     border: none !important;
@@ -436,7 +447,7 @@ body {
   }
 }
 
-@media (min-width: 380px) and (max-width: 396px) and (orientation: portrait) {
+@media (min-width: 380px) and (max-width: 393px) and (orientation: portrait) {
   .navbar-toggler {
     margin: -2.5rem 0 0 20rem;
     border: none !important;
@@ -449,14 +460,14 @@ body {
   }
 }
 
-@media (min-width: 397px) and (max-width: 420px) and (orientation: portrait) {
+@media (min-width: 400px) and (max-width: 414px) and (orientation: portrait) {
   .navbar-toggler {
     margin: -2.5rem 0 0 21rem;
     border: none !important;
   }
 }
 
-@media (min-width: 421px) and (max-width: 432px) and (orientation: portrait) {
+@media (min-width: 427px) and (max-width: 432px) and (orientation: portrait) {
   .navbar-toggler {
     margin: -2.5rem 0 0 22rem;
     border: none !important;
