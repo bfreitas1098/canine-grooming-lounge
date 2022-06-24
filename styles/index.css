@@ -301,7 +301,7 @@ body {
     height: 32rem;
     position: relative;
     top: -30px;
-    left: -165px;
+    left: -170px;
   }
 
   #biography {
@@ -309,11 +309,24 @@ body {
     margin: 0;
     position: relative;
     top: 50px;
-    left: 13px;
+    left: 10px;
+  }
+
+  #reviews-section {
+    height: 900px;
+  }
+
+  #footer {
+    font-size: 1rem;
   }
 }
 
-@media (min-width: 320px) and (max-width: 335px) and (orientation: portrait) {
+@media (max-width: 320px) and (orientation: portrait) {
+  .navbar-toggler {
+    margin: -2.5rem 0 0 16rem;
+    border: none !important;
+  }
+
   #contact-details {
     position: relative;
     top: 5px;
@@ -331,16 +344,7 @@ body {
     top: 8px;
     left: 105px;
   }
-}
 
-@media (min-width: 320px) and (max-width: 329px) and (orientation: portrait) {
-  .navbar-toggler {
-    margin: -2.5rem 0 0 16rem;
-    border: none !important;
-  }
-}
-
-@media (min-width: 320px) and (max-width: 349px) and (orientation: portrait) {
   #business-name {
     top: 22px;
     left: -225px;
@@ -350,6 +354,7 @@ body {
   #tag-line {
     top: 350px;
     left: -118px;
+    font-size: 0.9rem;
   }
 
   #paw-print {
@@ -361,77 +366,32 @@ body {
   #reviews-heading {
     font-size: 1.3rem;
   }
-}
 
-@media (min-width: 320px) and (max-width: 379px) and (orientation: portrait) {
-  #tag-line {
-    font-size: 1rem;
+  #footer {
+    font-size: 0.9rem;
   }
 }
 
 @media (min-width: 320px) and (max-width: 389px) and (orientation: portrait) {
   .carousel {
-    margin-left: 1.2rem;
-  }
-}
-
-@media (min-width: 330px) and (max-width: 345px) and (orientation: portrait) {
-  .navbar-toggler {
-    margin: -2.5rem 0 0 17rem;
-    border: none !important;
-  }
-}
-
-@media (min-width: 336px) and (max-width: 359px) and (orientation: portrait) {
-  #contact-details {
-    position: relative;
-    top: 5px;
-    left: 50px;
-  }
-
-  #facebook i {
-    position: relative;
-    top: 8px;
-    left: 140px;
-  }
-}
-
-@media (min-width: 346px) and (max-width: 359px) and (orientation: portrait) {
-  .navbar-toggler {
-    margin: -2.5rem 0 0 18rem;
-    border: none !important;
-  }
-}
-
-@media (min-width: 350px) and (max-width: 359px) and (orientation: portrait) {
-  #paw-print {
-    top: -1px;
-    left: 7px;
-    max-width: 8%;
-  }
-
-  #reviews-heading {
-    font-size: 1.5rem;
+    margin-left: 1.1rem;
   }
 }
 
 @media (min-width: 360px) and (max-width: 379px) and (orientation: portrait) {
   .navbar-toggler {
-    margin: -2.5rem 0 0 19rem;
+    margin: -2.5rem 0 0 18rem;
     border: none !important;
-  }
-}
-
-@media (min-width: 350px) and (max-width: 432px) and (orientation: portrait) {
-  #business-name {
-    top: 18px;
-    left: -220px;
-    font-size: 3.2rem;
   }
 
   #tag-line {
-    top: 290px;
-    left: -102px;
+    font-size: 1rem;
+  }
+
+  #paw-print {
+    top: -1px;
+    left: 8px;
+    max-width: 8%;
   }
 }
 
@@ -446,6 +406,17 @@ body {
     position: relative;
     top: 33px;
     left: -195px;
+  }
+
+  #business-name {
+    top: 18px;
+    left: -220px;
+    font-size: 3.2rem;
+  }
+
+  #tag-line {
+    top: 290px;
+    left: -102px;
   }
 
   #reviews-heading {
