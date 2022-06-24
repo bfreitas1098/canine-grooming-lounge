@@ -249,6 +249,17 @@ body {
     font-size: 1rem;
   }
 
+  .carousel {
+    max-width: 90%;
+    min-height: 275px;
+    border: 7px 5px;
+  }
+
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    display: none;
+  }
+
   #wrapper {
     overflow-x: hidden;
   }
@@ -346,11 +357,21 @@ body {
     left: 7px;
     max-width: 8%;
   }
+
+  #reviews-heading {
+    font-size: 1.3rem;
+  }
 }
 
 @media (min-width: 320px) and (max-width: 379px) and (orientation: portrait) {
   #tag-line {
     font-size: 1rem;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 389px) and (orientation: portrait) {
+  .carousel {
+    margin-left: 1.2rem;
   }
 }
 
@@ -388,6 +409,10 @@ body {
     left: 7px;
     max-width: 8%;
   }
+
+  #reviews-heading {
+    font-size: 1.5rem;
+  }
 }
 
 @media (min-width: 360px) and (max-width: 379px) and (orientation: portrait) {
@@ -422,6 +447,10 @@ body {
     top: 33px;
     left: -195px;
   }
+
+  #reviews-heading {
+    font-size: 1.7rem;
+  }
 }
 
 @media (min-width: 380px) and (max-width: 432px) and (orientation: portrait) {
@@ -440,6 +469,12 @@ body {
   .navbar-toggler {
     margin: -2.5rem 0 0 20rem;
     border: none !important;
+  }
+}
+
+@media (min-width: 390px) and (max-width: 432px) and (orientation: portrait) {
+  .carousel {
+    margin-left: 1.35rem;
   }
 }
 
