@@ -280,6 +280,26 @@ body {
     height: 60%;
     top: 192px;
   }
+
+  #about {
+    display: block;
+  }
+
+  #bio-image {
+    max-width: 88%;
+    height: 32rem;
+    position: relative;
+    top: -30px;
+    left: -165px;
+  }
+
+  #biography {
+    max-width: 95%;
+    margin: 0;
+    position: relative;
+    top: 50px;
+    left: 13px;
+  }
 }
 
 @media (min-width: 320px) and (max-width: 335px) and (orientation: portrait) {
