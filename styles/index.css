@@ -224,31 +224,6 @@ body {
 }
 
 @media (min-width: 320px) and (max-width: 432px) and (orientation: portrait) {
-  .fa-phone {
-    position: relative;
-    top: -25px;
-    left: 55px;
-  }
-
-  .fa-envelope {
-    position: relative;
-    top: 1px;
-    left: 4px;
-  }
-
-  .fa-phone,
-  .fa-envelope {
-    font-size: 0.8rem;
-  }
-
-  .navbar ul {
-    margin-left: 0;
-  }
-
-  .navbar li {
-    font-size: 1rem;
-  }
-
   .carousel {
     max-width: 90%;
     min-height: 275px;
@@ -269,6 +244,69 @@ body {
   .carousel-control-prev-icon,
   .carousel-control-next-icon {
     margin-top: 2rem;
+  }
+
+  #hero-image {
+    width: 400px;
+    top: 216px;
+  }
+
+  #bio-image {
+    max-width: 88%;
+    height: 32rem;
+    position: relative;
+    top: -30px;
+    left: -10.35rem;
+  }
+
+  #biography {
+    max-width: 95%;
+    margin: 0;
+    position: relative;
+    top: 50px;
+    left: 10px;
+  }
+
+  #services-button {
+    top: 0px;
+    padding: 13px;
+  }
+
+  #reviews-section {
+    margin-top: 5rem;
+    height: 900px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 534px) and (orientation: portrait) {
+  .fa-phone {
+    position: relative;
+    top: -26px;
+    left: 55px;
+  }
+
+  .fa-envelope {
+    position: relative;
+    top: 1px;
+    left: 4px;
+  }
+
+  .fa-phone,
+  .fa-envelope {
+    font-size: 0.8rem;
+  }
+
+  .navbar-toggler {
+    margin-top: -2.4rem;
+    border: none !important;
+  }
+
+  .navbar ul {
+    margin-left: 0;
+  }
+
+  .navbar li {
+    font-size: 1rem;
   }
 
   #wrapper {
@@ -294,37 +332,15 @@ body {
 
   #logo {
     max-width: 17%;
-    margin: -15px 0 -10px;
+    margin: -10px 0 -7px 10px;
   }
 
   #hero-image {
-    width: 400px;
-    height: 60%;
-    top: 192px;
+    height: 55%;
   }
 
   #about {
     display: block;
-  }
-
-  #bio-image {
-    max-width: 88%;
-    height: 32rem;
-    position: relative;
-    top: -30px;
-    left: -10.35rem;
-  }
-
-  #biography {
-    max-width: 95%;
-    margin: 0;
-    position: relative;
-    top: 50px;
-    left: 10px;
-  }
-
-  #reviews-section {
-    height: 900px;
   }
 
   #footer {
@@ -334,8 +350,7 @@ body {
 
 @media (max-width: 320px) and (orientation: portrait) {
   .navbar-toggler {
-    margin: -2.5rem 0 0 16rem;
-    border: none !important;
+    margin-left: 16rem;
   }
 
   #contact-details {
@@ -383,7 +398,13 @@ body {
   }
 }
 
-@media (min-width: 320px) and (max-width: 389px) and (orientation: portrait) {
+@media (min-width: 320px) and (max-width: 346px) and (orientation: portrait) {
+  #services-button {
+    left: 6rem;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 384px) and (orientation: portrait) {
   .carousel {
     margin-left: 1.1rem;
   }
@@ -391,8 +412,7 @@ body {
 
 @media (min-width: 360px) and (max-width: 375px) and (orientation: portrait) {
   .navbar-toggler {
-    margin: -2.5rem 0 0 18rem;
-    border: none !important;
+    margin-left: 8rem;
   }
 
   #tag-line {
@@ -406,7 +426,26 @@ body {
   }
 }
 
+@media (min-width: 360px) and (max-width: 380px) and (orientation: portrait) {
+  #services-button {
+    left: 7rem;
+  }
+}
+
 @media (min-width: 360px) and (max-width: 432px) and (orientation: portrait) {
+  #business-name {
+    top: 18px;
+    left: -220px;
+    font-size: 3.2rem;
+  }
+
+  #tag-line {
+    top: 320px;
+    left: -80px;
+  }
+}
+
+@media (min-width: 360px) and (max-width: 534px) and (orientation: portrait) {
   #contact-details {
     position: relative;
     top: -5px;
@@ -415,19 +454,8 @@ body {
 
   #facebook i {
     position: relative;
-    top: 33px;
+    top: 32px;
     left: -195px;
-  }
-
-  #business-name {
-    top: 18px;
-    left: -220px;
-    font-size: 3.2rem;
-  }
-
-  #tag-line {
-    top: 290px;
-    left: -102px;
   }
 
   #reviews-heading {
@@ -449,8 +477,13 @@ body {
 
 @media (min-width: 380px) and (max-width: 393px) and (orientation: portrait) {
   .navbar-toggler {
-    margin: -2.5rem 0 0 20rem;
-    border: none !important;
+    margin-left: 20rem;
+  }
+}
+
+@media (min-width: 390px) and (max-width: 414px) and (orientation: portrait) {
+  #services-button {
+    left: 8rem;
   }
 }
 
@@ -462,14 +495,60 @@ body {
 
 @media (min-width: 400px) and (max-width: 414px) and (orientation: portrait) {
   .navbar-toggler {
-    margin: -2.5rem 0 0 21rem;
-    border: none !important;
+    margin-left: 21rem;
   }
 }
 
 @media (min-width: 427px) and (max-width: 432px) and (orientation: portrait) {
   .navbar-toggler {
-    margin: -2.5rem 0 0 22rem;
-    border: none !important;
+    margin-left: 22rem;
+  }
+
+  #services-button {
+    left: 9rem;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 504px) {
+  .navbar-toggler {
+    margin-left: 25rem;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 534px) and (orientation: portrait) {
+  .navbar ul {
+    margin-top: 1.5rem;
+  }
+
+  .navbar li {
+    font-size: 1.3rem;
+  }
+
+  #hero-image {
+    width: 450px;
+    top: 216px;
+  }
+
+  #business-name {
+    top: 20px;
+    left: -130px;
+    font-size: 3.6rem;
+  }
+
+  #tag-line {
+    top: 290px;
+    left: -102px;
+  }
+
+  #paw-print {
+    top: -2px;
+    left: 10px;
+    max-width: 9%;
+  }
+}
+
+@media (min-width: 534px) {
+  .navbar-toggler {
+    margin-left: 28rem;
   }
 }
