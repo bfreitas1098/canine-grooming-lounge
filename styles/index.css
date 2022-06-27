@@ -223,29 +223,7 @@ body {
   top: 25px;
 }
 
-@media (min-width: 320px) and (max-width: 432px) and (orientation: portrait) {
-  .carousel {
-    max-width: 90%;
-    min-height: 275px;
-    border: 7px 5px;
-  }
-
-  .carousel-control-prev-icon {
-    margin-left: -70px;
-  }
-
-  .carousel-control-next-icon {
-    position: relative;
-    left: 35px;
-    margin-left: 0;
-    z-index: 1;
-  }
-
-  .carousel-control-prev-icon,
-  .carousel-control-next-icon {
-    margin-top: 2rem;
-  }
-
+@media (min-width: 320px) and (max-width: 432px) {
   #hero-image {
     width: 400px;
     top: 230px;
@@ -254,14 +232,9 @@ body {
   #biography {
     font-size: 1.2rem;
   }
-
-  #reviews-section {
-    margin-top: 5rem;
-    height: 900px;
-  }
 }
 
-@media (min-width: 320px) and (max-width: 534px) and (orientation: portrait) {
+@media (min-width: 320px) and (max-width: 608px) {
   .fa-phone {
     position: relative;
     top: -26px;
@@ -290,6 +263,27 @@ body {
 
   .navbar li {
     font-size: 1rem;
+  }
+
+  .carousel {
+    max-width: 90%;
+    min-height: 275px;
+  }
+
+  .carousel-control-prev-icon {
+    margin-left: -70px;
+  }
+
+  .carousel-control-next-icon {
+    position: relative;
+    left: 35px;
+    margin-left: 0;
+    z-index: 1;
+  }
+
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    margin-top: 2rem;
   }
 
   #wrapper {
@@ -346,12 +340,17 @@ body {
     padding: 13px;
   }
 
+  #reviews-section {
+    margin-top: 5rem;
+    height: 900px;
+  }
+
   #footer {
     font-size: 1rem;
   }
 }
 
-@media (max-width: 320px) and (orientation: portrait) {
+@media (max-width: 320px) {
   .navbar-toggler {
     margin-left: 16rem;
   }
@@ -401,25 +400,25 @@ body {
   }
 }
 
-@media (min-width: 320px) and (max-width: 346px) and (orientation: portrait) {
+@media (min-width: 320px) and (max-width: 346px) {
   #services-button {
     left: 6rem;
   }
 }
 
-@media (min-width: 320px) and (max-width: 375px) and (orientation: portrait) {
+@media (min-width: 320px) and (max-width: 375px) {
   #bio-image {
     left: -10.7rem;
   }
 }
 
-@media (min-width: 320px) and (max-width: 384px) and (orientation: portrait) {
+@media (min-width: 320px) and (max-width: 384px) {
   .carousel {
     margin-left: 1.1rem;
   }
 }
 
-@media (min-width: 360px) and (max-width: 375px) and (orientation: portrait) {
+@media (min-width: 360px) and (max-width: 375px) {
   .navbar-toggler {
     margin-left: 18rem;
   }
@@ -435,13 +434,13 @@ body {
   }
 }
 
-@media (min-width: 360px) and (max-width: 384px) and (orientation: portrait) {
+@media (min-width: 360px) and (max-width: 384px) {
   #services-button {
     left: 7rem;
   }
 }
 
-@media (min-width: 360px) and (max-width: 432px) and (orientation: portrait) {
+@media (min-width: 360px) and (max-width: 432px) {
   #business-name {
     top: 10px;
     left: -220px;
@@ -452,9 +451,13 @@ body {
     top: 320px;
     left: -134px;
   }
+
+  #reviews-heading {
+    font-size: 1.7rem;
+  }
 }
 
-@media (min-width: 360px) and (max-width: 534px) and (orientation: portrait) {
+@media (min-width: 360px) and (max-width: 534px) {
   #contact-details {
     position: relative;
     top: -5px;
@@ -466,13 +469,9 @@ body {
     top: 32px;
     left: -195px;
   }
-
-  #reviews-heading {
-    font-size: 1.7rem;
-  }
 }
 
-@media (min-width: 384px) and (max-width: 432px) and (orientation: portrait) {
+@media (min-width: 384px) and (max-width: 432px) {
   #tag-line {
     font-size: 1.2rem;
   }
@@ -488,31 +487,31 @@ body {
   }
 }
 
-@media (min-width: 384px) and (max-width: 393px) and (orientation: portrait) {
+@media (min-width: 384px) and (max-width: 393px) {
   .navbar-toggler {
     margin-left: 20rem;
   }
 }
 
-@media (min-width: 390px) and (max-width: 414px) and (orientation: portrait) {
+@media (min-width: 390px) and (max-width: 414px) {
   #services-button {
     left: 8rem;
   }
 }
 
-@media (min-width: 390px) and (max-width: 432px) and (orientation: portrait) {
+@media (min-width: 390px) and (max-width: 432px) {
   .carousel {
     margin-left: 1.35rem;
   }
 }
 
-@media (min-width: 400px) and (max-width: 414px) and (orientation: portrait) {
+@media (min-width: 400px) and (max-width: 414px) {
   .navbar-toggler {
     margin-left: 21rem;
   }
 }
 
-@media (min-width: 427px) and (max-width: 432px) and (orientation: portrait) {
+@media (min-width: 427px) and (max-width: 432px) {
   .navbar-toggler {
     margin-left: 22rem;
   }
@@ -522,7 +521,11 @@ body {
   }
 }
 
-@media (min-width: 480px) and (max-width: 481px) and (orientation: portrait) {
+@media (min-width: 480px) and (max-width: 481px) {
+  .carousel {
+    margin-left: 1.5rem;
+  }
+
   #bio-image {
     left: -9.65rem;
   }
@@ -542,7 +545,7 @@ body {
   }
 }
 
-@media (min-width: 480px) and (max-width: 534px) and (orientation: portrait) {
+@media (min-width: 480px) and (max-width: 534px) {
   .navbar ul {
     margin-top: 1.5rem;
   }
@@ -573,6 +576,10 @@ body {
     left: 10px;
     max-width: 9%;
   }
+
+  #reviews-heading {
+    font-size: 2rem;
+  }
 }
 
 @media (min-width: 504px) and (max-width: 505px) {
@@ -585,11 +592,15 @@ body {
   }
 
   #services-button {
-    left: 10.6rem;
+    left: 11rem;
   }
 }
 
 @media (min-width: 504px) and (max-width: 534px) {
+  .carousel {
+    margin-left: 1.7rem;
+  }
+
   #biography {
     font-size: 1.6rem;
   }
