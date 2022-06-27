@@ -231,6 +231,22 @@ body {
 
   #biography {
     font-size: 1.2rem;
+    left: 7px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 534px) {
+  .navbar-toggler {
+    margin-top: -2.4rem;
+  }
+
+  #logo {
+    max-width: 17%;
+    margin: -10px 0 -7px 10px;
+  }
+
+  #services-button {
+    padding: 13px;
   }
 }
 
@@ -253,7 +269,6 @@ body {
   }
 
   .navbar-toggler {
-    margin-top: -2.4rem;
     border: none !important;
   }
 
@@ -307,11 +322,6 @@ body {
     left: -225px;
   }
 
-  #logo {
-    max-width: 17%;
-    margin: -10px 0 -7px 10px;
-  }
-
   #hero-image {
     height: 52%;
   }
@@ -329,7 +339,7 @@ body {
 
   #biography {
     text-align: center;
-    max-width: 100%;
+    width: 95%;
     margin: 0;
     position: relative;
     top: 50px;
@@ -337,7 +347,6 @@ body {
 
   #services-button {
     top: 0px;
-    padding: 13px;
   }
 
   #reviews-section {
@@ -457,7 +466,7 @@ body {
   }
 }
 
-@media (min-width: 360px) and (max-width: 534px) {
+@media (min-width: 360px) and (max-width: 608px) {
   #contact-details {
     position: relative;
     top: -5px;
@@ -546,29 +555,14 @@ body {
 }
 
 @media (min-width: 480px) and (max-width: 534px) {
-  .navbar ul {
-    margin-top: 1.5rem;
-  }
-
-  .navbar li {
-    font-size: 1.3rem;
-  }
-
   #hero-image {
     width: 450px;
     top: 230px;
   }
 
   #business-name {
-    top: 10px;
     left: -160px;
     font-size: 4rem;
-    width: 80%;
-  }
-
-  #tag-line {
-    top: 290px;
-    left: -102px;
   }
 
   #paw-print {
@@ -582,13 +576,38 @@ body {
   }
 }
 
+@media (min-width: 480px) and (max-width: 608px) {
+  .navbar ul {
+    margin-top: 1.5rem;
+  }
+
+  .navbar li {
+    font-size: 1.3rem;
+  }
+
+  #business-name {
+    top: 10px;
+  }
+
+  #tag-line {
+    left: -102px;
+    top: 300px;
+  }
+
+  #paw-print {
+    top: -2px;
+    left: 10px;
+    max-width: 8%;
+  }
+}
+
 @media (min-width: 504px) and (max-width: 505px) {
   #bio-image {
     left: -8.9rem;
   }
 
   #biography {
-    left: 21px;
+    left: 10px;
   }
 
   #services-button {
@@ -606,7 +625,7 @@ body {
   }
 }
 
-@media (min-width: 534px) {
+@media (min-width: 534px) and (max-width: 535px) {
   .navbar-toggler {
     margin-left: 28rem;
   }
@@ -615,11 +634,52 @@ body {
     left: -8rem;
   }
 
+  #services-button {
+    left: 12rem;
+  }
+}
+
+@media (min-width: 534px) and (max-width: 608px) {
   #biography {
-    left: 36px;
+    left: 12px;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 608px) {
+  .navbar-toggler {
+    margin-top: -2.7rem;
+    margin-left: 32rem;
+  }
+
+  .carousel {
+    margin-left: 1.85rem;
+    padding: 0px;
+  }
+
+  #logo {
+    max-width: 17%;
+    margin: -10px 0 -7px 10px;
+  }
+
+  #hero-image {
+    width: 450px;
+    top: 230px;
+  }
+
+  #business-name {
+    left: -100px;
+    font-size: 4.2rem;
+  }
+
+  #bio-image {
+    left: -6rem;
+  }
+
+  #biography {
+    font-size: 1.8rem;
   }
 
   #services-button {
-    left: 12rem;
+    left: 14rem;
   }
 }
