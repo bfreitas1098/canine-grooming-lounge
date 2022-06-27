@@ -248,28 +248,11 @@ body {
 
   #hero-image {
     width: 400px;
-    top: 216px;
-  }
-
-  #bio-image {
-    max-width: 88%;
-    height: 32rem;
-    position: relative;
-    top: -30px;
-    left: -10.35rem;
+    top: 230px;
   }
 
   #biography {
-    max-width: 95%;
-    margin: 0;
-    position: relative;
-    top: 50px;
-    left: 10px;
-  }
-
-  #services-button {
-    top: 0px;
-    padding: 13px;
+    font-size: 1.2rem;
   }
 
   #reviews-section {
@@ -336,11 +319,31 @@ body {
   }
 
   #hero-image {
-    height: 55%;
+    height: 52%;
   }
 
   #about {
     display: block;
+  }
+
+  #bio-image {
+    max-width: 90%;
+    height: 32rem;
+    position: relative;
+    top: -30px;
+  }
+
+  #biography {
+    text-align: center;
+    max-width: 100%;
+    margin: 0;
+    position: relative;
+    top: 50px;
+  }
+
+  #services-button {
+    top: 0px;
+    padding: 13px;
   }
 
   #footer {
@@ -404,6 +407,12 @@ body {
   }
 }
 
+@media (min-width: 320px) and (max-width: 375px) and (orientation: portrait) {
+  #bio-image {
+    left: -10.7rem;
+  }
+}
+
 @media (min-width: 320px) and (max-width: 384px) and (orientation: portrait) {
   .carousel {
     margin-left: 1.1rem;
@@ -412,7 +421,7 @@ body {
 
 @media (min-width: 360px) and (max-width: 375px) and (orientation: portrait) {
   .navbar-toggler {
-    margin-left: 8rem;
+    margin-left: 18rem;
   }
 
   #tag-line {
@@ -426,7 +435,7 @@ body {
   }
 }
 
-@media (min-width: 360px) and (max-width: 380px) and (orientation: portrait) {
+@media (min-width: 360px) and (max-width: 384px) and (orientation: portrait) {
   #services-button {
     left: 7rem;
   }
@@ -434,14 +443,14 @@ body {
 
 @media (min-width: 360px) and (max-width: 432px) and (orientation: portrait) {
   #business-name {
-    top: 18px;
+    top: 10px;
     left: -220px;
-    font-size: 3.2rem;
+    font-size: 4rem;
   }
 
   #tag-line {
     top: 320px;
-    left: -80px;
+    left: -134px;
   }
 }
 
@@ -463,7 +472,7 @@ body {
   }
 }
 
-@media (min-width: 380px) and (max-width: 432px) and (orientation: portrait) {
+@media (min-width: 384px) and (max-width: 432px) and (orientation: portrait) {
   #tag-line {
     font-size: 1.2rem;
   }
@@ -473,9 +482,13 @@ body {
     left: 8px;
     max-width: 8%;
   }
+
+  #bio-image {
+    left: -10.5rem;
+  }
 }
 
-@media (min-width: 380px) and (max-width: 393px) and (orientation: portrait) {
+@media (min-width: 384px) and (max-width: 393px) and (orientation: portrait) {
   .navbar-toggler {
     margin-left: 20rem;
   }
@@ -509,6 +522,20 @@ body {
   }
 }
 
+@media (min-width: 480px) and (max-width: 481px) and (orientation: portrait) {
+  #bio-image {
+    left: -9.65rem;
+  }
+
+  #biography {
+    left: 13px;
+  }
+
+  #services-button {
+    left: 10.4rem;
+  }
+}
+
 @media (min-width: 480px) and (max-width: 504px) {
   .navbar-toggler {
     margin-left: 25rem;
@@ -526,13 +553,14 @@ body {
 
   #hero-image {
     width: 450px;
-    top: 216px;
+    top: 230px;
   }
 
   #business-name {
-    top: 20px;
-    left: -130px;
-    font-size: 3.6rem;
+    top: 10px;
+    left: -160px;
+    font-size: 4rem;
+    width: 80%;
   }
 
   #tag-line {
@@ -547,8 +575,40 @@ body {
   }
 }
 
+@media (min-width: 504px) and (max-width: 505px) {
+  #bio-image {
+    left: -8.9rem;
+  }
+
+  #biography {
+    left: 21px;
+  }
+
+  #services-button {
+    left: 10.6rem;
+  }
+}
+
+@media (min-width: 504px) and (max-width: 534px) {
+  #biography {
+    font-size: 1.6rem;
+  }
+}
+
 @media (min-width: 534px) {
   .navbar-toggler {
     margin-left: 28rem;
+  }
+
+  #bio-image {
+    left: -8rem;
+  }
+
+  #biography {
+    left: 36px;
+  }
+
+  #services-button {
+    left: 12rem;
   }
 }
