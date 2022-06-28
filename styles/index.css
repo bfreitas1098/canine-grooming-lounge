@@ -251,6 +251,16 @@ body {
 }
 
 @media (min-width: 320px) and (max-width: 608px) {
+  #hero-image {
+    height: 52%;
+  }
+
+  #bio-image {
+    max-width: 90%;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 720px) {
   .fa-phone {
     position: relative;
     top: -26px;
@@ -322,16 +332,11 @@ body {
     left: -225px;
   }
 
-  #hero-image {
-    height: 52%;
-  }
-
   #about {
     display: block;
   }
 
   #bio-image {
-    max-width: 90%;
     height: 32rem;
     position: relative;
     top: -30px;
@@ -466,7 +471,7 @@ body {
   }
 }
 
-@media (min-width: 360px) and (max-width: 608px) {
+@media (min-width: 360px) and (max-width: 720px) {
   #contact-details {
     position: relative;
     top: -5px;
@@ -504,7 +509,7 @@ body {
 
 @media (min-width: 390px) and (max-width: 414px) {
   #services-button {
-    left: 8rem;
+    left: 8.5rem;
   }
 }
 
@@ -576,7 +581,7 @@ body {
   }
 }
 
-@media (min-width: 480px) and (max-width: 608px) {
+@media (min-width: 480px) and (max-width: 720px) {
   .navbar ul {
     margin-top: 1.5rem;
   }
@@ -653,33 +658,84 @@ body {
 
   .carousel {
     margin-left: 1.85rem;
-    padding: 0px;
-  }
-
-  #logo {
-    max-width: 17%;
-    margin: -10px 0 -7px 10px;
   }
 
   #hero-image {
-    width: 450px;
     top: 230px;
   }
 
   #business-name {
     left: -100px;
-    font-size: 4.2rem;
+    font-size: 4.1rem;
   }
 
   #bio-image {
-    left: -6rem;
-  }
-
-  #biography {
-    font-size: 1.8rem;
+    left: -5.9rem;
   }
 
   #services-button {
     left: 14rem;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 720px) {
+  .carousel {
+    padding: 0px;
+  }
+
+  #logo {
+    max-width: 17%;
+    margin: -8px 0 -7px 10px;
+  }
+}
+
+@media (min-width: 720px) {
+  .navbar-toggler-icon {
+    width: 2.3rem !important;
+  }
+
+  .navbar-toggler {
+    margin-top: -3.6rem;
+    margin-left: 39rem;
+  }
+
+  .carousel {
+    margin-left: 2.25rem;
+  }
+
+  .carousel-indicators {
+    display: none;
+  }
+
+  #hero-image {
+    height: 65%;
+    top: 168px;
+  }
+
+  #business-name {
+    left: -35px;
+    font-size: 4.8rem;
+  }
+
+  #bio-image {
+    max-width: 100%;
+    left: -2rem;
+  }
+
+  #biography {
+    font-size: 1.8rem;
+    left: 22px;
+  }
+
+  #services-button {
+    left: 18.3rem;
+  }
+
+  #reviews-section {
+    height: 1100px;
+  }
+
+  #reviews-heading {
+    font-size: 3rem;
   }
 }
