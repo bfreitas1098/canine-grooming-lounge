@@ -260,7 +260,7 @@ body {
   }
 }
 
-@media (min-width: 320px) and (max-width: 768px) {
+@media (min-width: 320px) and (max-width: 800px) {
   .fa-phone {
     position: relative;
     top: -26px;
@@ -471,7 +471,7 @@ body {
   }
 }
 
-@media (min-width: 360px) and (max-width: 768px) {
+@media (min-width: 360px) and (max-width: 800px) {
   #contact-details {
     position: relative;
     top: -5px;
@@ -601,7 +601,6 @@ body {
   .navbar li {
     font-size: 1.3rem;
   }
-
   #paw-print {
     top: -2px;
     left: 10px;
@@ -691,7 +690,7 @@ body {
   }
 }
 
-@media (min-width: 600px) and (max-width: 768px) {
+@media (min-width: 600px) and (max-width: 800px) {
   .carousel {
     padding: 0px;
   }
@@ -741,11 +740,13 @@ body {
   }
 }
 
-@media (min-width: 720px) and (max-width: 768px) {
+@media (min-width: 720px) and (max-width: 800px) {
   .carousel {
     margin-left: 2.25rem;
   }
+}
 
+@media (min-width: 720px) and (max-width: 800px) {
   .carousel-indicators {
     display: none;
   }
@@ -765,13 +766,38 @@ body {
 }
 
 @media (min-width: 768px) and (max-width: 769px) {
-  .navbar-toggler-icon {
-    width: 2.6rem !important;
-  }
-
   .navbar-toggler {
     margin-top: -3.7rem;
     margin-left: 41.5rem;
+  }
+
+  #business-name {
+    font-size: 5rem;
+  }
+
+  #tag-line {
+    top: 325px;
+    left: -170px;
+  }
+
+  #paw-print {
+    max-width: 7%;
+  }
+
+  #bio-image {
+    max-width: 100%;
+    left: -0.6rem;
+  }
+
+  #services-button {
+    left: 18.4rem;
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 800px) {
+  .navbar-toggler-icon {
+    width: 2.6rem !important;
   }
 
   #hero-image {
@@ -781,27 +807,54 @@ body {
   #business-name {
     top: 25px;
     left: 10px;
-    font-size: 5rem;
     line-height: 1.1;
   }
 
-  #tag-line {
-    top: 325px;
-    left: -170px;
+  #services-button {
+    padding: 25px;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 854px) {
+  .navbar-toggler {
+    margin-top: -3.9rem;
+    margin-left: 43.6rem;
   }
 
-  #bio-image {
-    max-width: 100%;
-    left: -0.6rem;
+  .navbar ul {
+    margin-top: 1.5rem;
+  }
+
+  .navbar li {
+    font-size: 1.3rem;
+  }
+
+  .carousel {
+    margin-left: 2.5rem;
+  }
+
+  #business-name {
+    font-size: 5.3rem;
+  }
+
+  #tag-line {
+    top: 354px;
+    left: -175px;
   }
 
   #paw-print {
-    max-width: 7%;
+    max-width: 6%;
+    top: -36px;
+    left: 146px;
+  }
+
+  #bio-image {
+    max-width: 150%;
+    left: 0.8rem;
   }
 
   #services-button {
-    left: 18.4rem;
-    padding: 25px;
-    font-size: 1.5rem;
+    left: 19.5rem;
+    font-size: 1.7rem;
   }
 }
