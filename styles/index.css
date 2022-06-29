@@ -223,6 +223,56 @@ body {
   top: 25px;
 }
 
+@media (max-width: 320px) {
+  .navbar-toggler {
+    margin-left: 16rem;
+  }
+
+  #contact-details {
+    position: relative;
+    top: 5px;
+    left: 40px;
+  }
+
+  #instagram i {
+    position: relative;
+    top: 9px;
+    left: 70px;
+  }
+
+  #facebook i {
+    position: relative;
+    top: 8px;
+    left: 105px;
+  }
+
+  #business-name {
+    top: 22px;
+    left: -225px;
+    font-size: 3rem;
+  }
+
+  #tag-line {
+    top: 350px;
+    left: -118px;
+    font-size: 0.9rem;
+  }
+
+  #paw-print {
+    top: -1px;
+    left: 7px;
+    max-width: 8%;
+  }
+
+  #reviews-heading {
+    font-size: 1.3rem;
+  }
+
+  #footer {
+    font-size: 0.9rem;
+  }
+}
+
 @media (min-width: 320px) and (max-width: 432px) {
   #hero-image {
     width: 400px;
@@ -232,6 +282,24 @@ body {
   #biography {
     font-size: 1.2rem;
     left: 7px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 346px) {
+  #services-button {
+    left: 6rem;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 375px) {
+  #bio-image {
+    left: -10.7rem;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 384px) {
+  .carousel {
+    margin-left: 1.1rem;
   }
 }
 
@@ -300,9 +368,7 @@ body {
   }
 
   .carousel-control-next-icon {
-    position: relative;
     left: 35px;
-    margin-left: 0;
     z-index: 1;
   }
 
@@ -364,71 +430,10 @@ body {
   }
 }
 
-@media (max-width: 320px) {
-  .navbar-toggler {
-    margin-left: 16rem;
-  }
-
-  #contact-details {
+@media (min-width: 320px) and (max-width: 1024px) {
+  .carousel-control-next-icon {
+    margin-left: 0;
     position: relative;
-    top: 5px;
-    left: 40px;
-  }
-
-  #instagram i {
-    position: relative;
-    top: 9px;
-    left: 70px;
-  }
-
-  #facebook i {
-    position: relative;
-    top: 8px;
-    left: 105px;
-  }
-
-  #business-name {
-    top: 22px;
-    left: -225px;
-    font-size: 3rem;
-  }
-
-  #tag-line {
-    top: 350px;
-    left: -118px;
-    font-size: 0.9rem;
-  }
-
-  #paw-print {
-    top: -1px;
-    left: 7px;
-    max-width: 8%;
-  }
-
-  #reviews-heading {
-    font-size: 1.3rem;
-  }
-
-  #footer {
-    font-size: 0.9rem;
-  }
-}
-
-@media (min-width: 320px) and (max-width: 346px) {
-  #services-button {
-    left: 6rem;
-  }
-}
-
-@media (min-width: 320px) and (max-width: 375px) {
-  #bio-image {
-    left: -10.7rem;
-  }
-}
-
-@media (min-width: 320px) and (max-width: 384px) {
-  .carousel {
-    margin-left: 1.1rem;
   }
 }
 
@@ -747,12 +752,14 @@ body {
 }
 
 @media (min-width: 720px) and (max-width: 854px) {
-  #business-name {
-    line-height: 1.1;
-  }
-
   #reviews-section {
     height: 1100px;
+  }
+}
+
+@media (min-width: 720px) and (max-width: 1024px) {
+  #business-name {
+    line-height: 1.1;
   }
 }
 
@@ -871,7 +878,7 @@ body {
   }
 }
 
-@media (min-width: 854px) and (max-width: 1000px) {
+@media (min-width: 854px) and (max-width: 855px) {
   .navbar-toggler-icon {
     width: 2.9rem !important;
   }
@@ -915,5 +922,75 @@ body {
 
   #reviews-heading {
     font-size: 3.2rem;
+  }
+}
+
+@media (min-width: 1000px) and (max-width: 1001px) {
+  #paw-print {
+    top: -36px;
+    left: 170px;
+  }
+}
+
+@media (min-width: 1000px) and (max-width: 1024px) {
+  .navbar ul {
+    margin-left: -382px;
+  }
+
+  .carousel {
+    max-width: 88%;
+    margin-left: 4rem;
+  }
+
+  .carousel-control-next-icon {
+    left: 75px;
+  }
+
+  i {
+    position: relative;
+    top: 2px;
+  }
+
+  #business-name {
+    top: 30px;
+    left: 25px;
+  }
+
+  #tag-line {
+    margin-left: -251px;
+    top: 400px;
+    left: -200px;
+  }
+
+  #paw-print {
+    max-width: 5%;
+  }
+
+  #about {
+    margin-left: -8rem;
+  }
+
+  #biography {
+    margin-left: 2rem;
+  }
+
+  #services-button {
+    left: 491px;
+    top: -162px;
+  }
+
+  #reviews-section {
+    height: 1400px;
+  }
+
+  #reviews-heading {
+    font-size: 3.8rem;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1025px) {
+  #paw-print {
+    top: -3px;
+    left: 13px;
   }
 }
