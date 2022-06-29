@@ -260,7 +260,7 @@ body {
   }
 }
 
-@media (min-width: 320px) and (max-width: 800px) {
+@media (min-width: 320px) and (max-width: 854px) {
   .fa-phone {
     position: relative;
     top: -26px;
@@ -471,7 +471,7 @@ body {
   }
 }
 
-@media (min-width: 360px) and (max-width: 800px) {
+@media (min-width: 360px) and (max-width: 854px) {
   #contact-details {
     position: relative;
     top: -5px;
@@ -601,6 +601,7 @@ body {
   .navbar li {
     font-size: 1.3rem;
   }
+
   #paw-print {
     top: -2px;
     left: 10px;
@@ -690,7 +691,7 @@ body {
   }
 }
 
-@media (min-width: 600px) and (max-width: 800px) {
+@media (min-width: 600px) and (max-width: 854px) {
   .carousel {
     padding: 0px;
   }
@@ -724,7 +725,6 @@ body {
     top: 24px;
     left: 0px;
     font-size: 4.7rem;
-    line-height: 1.1;
   }
 
   #tag-line {
@@ -740,9 +740,19 @@ body {
   }
 }
 
-@media (min-width: 720px) and (max-width: 800px) {
+@media (min-width: 720px) and (max-width: 768px) {
   .carousel {
     margin-left: 2.25rem;
+  }
+}
+
+@media (min-width: 720px) and (max-width: 854px) {
+  #business-name {
+    line-height: 1.1;
+  }
+
+  #reviews-section {
+    height: 1100px;
   }
 }
 
@@ -754,10 +764,6 @@ body {
   #biography {
     font-size: 1.8rem;
     left: 19px;
-  }
-
-  #reviews-section {
-    height: 1100px;
   }
 
   #reviews-heading {
@@ -807,7 +813,6 @@ body {
   #business-name {
     top: 25px;
     left: 10px;
-    line-height: 1.1;
   }
 
   #services-button {
@@ -816,25 +821,34 @@ body {
 }
 
 @media (min-width: 800px) and (max-width: 854px) {
-  .navbar-toggler {
-    margin-top: -3.9rem;
-    margin-left: 43.6rem;
-  }
-
   .navbar ul {
-    margin-top: 1.5rem;
+    margin-top: 2rem;
   }
 
   .navbar li {
-    font-size: 1.3rem;
-  }
-
-  .carousel {
-    margin-left: 2.5rem;
+    font-size: 1.5rem;
   }
 
   #business-name {
     font-size: 5.3rem;
+  }
+
+  #bio-image {
+    max-width: 150%;
+  }
+
+  #services-button {
+    font-size: 1.7rem;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 801px) {
+  .navbar-toggler {
+    margin: -3.9rem 0 0 43.6rem;
+  }
+
+  .carousel {
+    margin-left: 2.5rem;
   }
 
   #tag-line {
@@ -849,12 +863,57 @@ body {
   }
 
   #bio-image {
-    max-width: 150%;
     left: 0.8rem;
   }
 
   #services-button {
     left: 19.5rem;
-    font-size: 1.7rem;
+  }
+}
+
+@media (min-width: 854px) and (max-width: 1000px) {
+  .navbar-toggler-icon {
+    width: 2.9rem !important;
+  }
+
+  .navbar-toggler {
+    margin: -4.2rem 0 0 47rem;
+  }
+
+  .carousel {
+    margin-left: 2.7rem;
+  }
+
+  #business-name {
+    top: 45px;
+    left: 35px;
+  }
+
+  #tag-line {
+    top: 385px;
+    left: -185px;
+  }
+
+  #paw-print {
+    max-width: 6%;
+    top: -36px;
+    left: 172px;
+  }
+
+  #bio-image {
+    left: 2.5rem;
+  }
+
+  #biography {
+    font-size: 2rem;
+    left: 18px;
+  }
+
+  #services-button {
+    left: 22rem;
+  }
+
+  #reviews-heading {
+    font-size: 3.2rem;
   }
 }
