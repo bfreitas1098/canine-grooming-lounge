@@ -107,21 +107,21 @@ body {
   background-color: var(--primary-color);
   display: flex;
   flex-grow: 1;
-  height: 30rem;
+  height: 34rem;
   color: #ffffff;
-  font-family: var(--title-font);
 }
 
 #hero-image {
   width: 600px;
   height: 92%;
   position: relative;
-  top: 38px;
+  top: 43px;
 }
 
 #business-name {
   text-align: left;
   text-transform: uppercase;
+  font-family: var(--title-font);
   font-size: 100px;
   font-weight: 700;
   line-height: 1.2;
@@ -133,13 +133,11 @@ body {
 }
 
 #tag-line {
-  font-size: 28px;
-  text-align: center;
+  font-size: 24px;
   text-transform: uppercase;
-  font-style: italic;
   position: relative;
-  top: 432px;
-  left: 60px;
+  top: 450px;
+  left: 180px;
   margin-left: -464px;
 }
 
@@ -375,6 +373,20 @@ body {
   }
 }
 
+@media (min-width: 214px) and (max-width: 854px) {
+  .navbar ul {
+    margin-left: 0;
+  }
+
+  .navbar li {
+    font-size: 1rem;
+  }
+
+  #wrapper {
+    overflow-x: hidden;
+  }
+}
+
 @media (min-width: 250px) and (max-width: 251px) {
   .navbar-toggler {
     left: 190px !important;
@@ -430,20 +442,6 @@ body {
   }
 }
 
-@media (min-width: 214px) and (max-width: 854px) {
-  .navbar ul {
-    margin-left: 0;
-  }
-
-  .navbar li {
-    font-size: 1rem;
-  }
-
-  #wrapper {
-    overflow-x: hidden;
-  }
-}
-
 @media (min-width: 320px) and (max-width: 321px) {
   .navbar-toggler {
     margin-left: 16rem;
@@ -495,7 +493,7 @@ body {
 
 @media (min-width: 320px) and (max-width: 432px) {
   #hero-image {
-    top: 230px;
+    top: 261px;
   }
 
   #biography {
@@ -666,13 +664,13 @@ body {
   }
 
   #business-name {
-    top: 10px;
-    left: -220px;
+    top: 30px;
+    left: -240px;
     font-size: 4rem;
   }
 
   #tag-line {
-    top: 320px;
+    top: 382px;
     left: -23px;
     margin-left: -316px;
   }
@@ -698,7 +696,7 @@ body {
 
 @media (min-width: 384px) and (max-width: 432px) {
   #tag-line {
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
 
   #bio-image {
