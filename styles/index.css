@@ -133,11 +133,11 @@ body {
 }
 
 #tag-line {
-  font-size: 24px;
+  font-size: 30px;
   text-transform: uppercase;
   position: relative;
-  top: 450px;
-  left: 180px;
+  top: 440px;
+  left: 115px;
   margin-left: -464px;
 }
 
@@ -384,6 +384,11 @@ body {
 
   #wrapper {
     overflow-x: hidden;
+  }
+
+  #business-name {
+    text-shadow: -1px -1px 10px #4aa5c9, 1px -1px 10px #4aa5c9,
+      -1px 1px 10px #4aa5c9, 1px 1px 10px #4aa5c9;
   }
 }
 
@@ -670,9 +675,10 @@ body {
   }
 
   #tag-line {
-    top: 382px;
+    top: 370px;
     left: -23px;
-    margin-left: -316px;
+    margin-left: -325px;
+    line-height: 1.5;
   }
 
   #reviews-heading {
