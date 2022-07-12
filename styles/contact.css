@@ -157,10 +157,171 @@ h4 {
   top: 25px;
 }
 
-@media (min-width: 320px) and (max-width: 432px) and (orientation: portrait) {
+@media (min-width: 214px) and (max-width: 215px) {
+  .navbar-toggler {
+    left: 150px !important;
+  }
+
+  #contact-details {
+    left: 45px !important;
+  }
+}
+
+@media (min-width: 214px) and (max-width: 276px) {
   .fa-phone {
     position: relative;
-    top: -25px;
+    left: 22px;
+  }
+
+  .fa-envelope {
+    position: relative;
+    top: 15px;
+    left: -118px;
+  }
+
+  .fa-phone,
+  .fa-envelope {
+    font-size: 0.5rem;
+  }
+
+  .navbar-toggler-icon {
+    width: 1rem !important;
+  }
+
+  .navbar-toggler {
+    position: relative;
+    top: -51px !important;
+    border: none !important;
+  }
+
+  .navbar ul {
+    margin-top: -50px;
+  }
+
+  #contact-details-wrapper {
+    height: 4rem;
+  }
+
+  #contact-details {
+    font-size: 0.6rem;
+    position: relative;
+    top: -10px !important;
+  }
+
+  #phone-number {
+    position: relative;
+    left: 15px;
+  }
+
+  #instagram i {
+    position: relative;
+    top: 20px !important;
+    left: -140px !important;
+    margin: 0;
+  }
+
+  #facebook i {
+    position: relative;
+    top: 19px !important;
+    left: -105px !important;
+  }
+
+  #instagram i,
+  #facebook i {
+    font-size: 0.6rem;
+  }
+
+  #logo {
+    max-width: 23%;
+    margin: -24px 0 4px 5px;
+  }
+
+  #footer {
+    margin-top: 25rem;
+  }
+
+  #footer span {
+    font-size: 0.6rem;
+  }
+}
+
+@media (min-width: 214px) and (max-width: 854px) {
+  .navbar ul {
+    margin-left: 0;
+  }
+
+  .navbar li {
+    font-size: 1rem;
+  }
+
+  #wrapper {
+    overflow-x: hidden;
+  }
+}
+
+@media (min-width: 250px) and (max-width: 251px) {
+  .navbar-toggler {
+    left: 190px !important;
+  }
+
+  #contact-details {
+    left: 65px !important;
+  }
+}
+
+@media (min-width: 276px) and (max-width: 277px) {
+  .navbar-toggler {
+    left: 220px !important;
+  }
+
+  #contact-details {
+    left: 80px !important;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 321px) {
+  .navbar-toggler {
+    margin-left: 16rem;
+  }
+
+  #contact-details {
+    position: relative;
+    top: 5px;
+    left: 35px;
+  }
+
+  #instagram i {
+    position: relative;
+    top: 9px !important;
+    left: 70px !important;
+  }
+
+  #facebook i {
+    position: relative;
+    top: 8px;
+    left: 105px;
+  }
+
+  #footer {
+    font-size: 0.9rem;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 534px) {
+  .navbar-toggler {
+    margin-top: -2.4rem;
+  }
+
+  #logo {
+    max-width: 20%;
+    margin: -10px 0 -7px 10px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 854px) {
+  .fa-phone {
+    position: relative;
+    top: -26px;
     left: 55px;
   }
 
@@ -175,16 +336,8 @@ h4 {
     font-size: 0.8rem;
   }
 
-  .navbar ul {
-    margin-left: 0;
-  }
-
-  .navbar li {
-    font-size: 1rem;
-  }
-
-  #wrapper {
-    overflow-x: hidden;
+  .navbar-toggler {
+    border: none !important;
   }
 
   #contact-details-wrapper {
@@ -204,105 +357,142 @@ h4 {
     left: -225px;
   }
 
-  #logo {
-    max-width: 17%;
-    margin: -15px 0 -10px;
+  #footer {
+    font-size: 1rem;
   }
 }
 
-@media (min-width: 320px) and (max-width: 335px) and (orientation: portrait) {
-  #contact-details {
-    position: relative;
-    top: 5px;
-    left: 40px;
-  }
-
-  #instagram i {
-    position: relative;
-    top: 9px;
-    left: 70px;
-  }
-
-  #facebook i {
-    position: relative;
-    top: 8px;
-    left: 105px;
-  }
-}
-
-@media (min-width: 320px) and (max-width: 329px) and (orientation: portrait) {
+@media (min-width: 360px) and (max-width: 379px) {
   .navbar-toggler {
-    margin: -2.5rem 0 0 16rem;
-    border: none !important;
+    margin-left: 18rem;
   }
 }
 
-@media (min-width: 330px) and (max-width: 345px) and (orientation: portrait) {
-  .navbar-toggler {
-    margin: -2.5rem 0 0 17rem;
-    border: none !important;
-  }
-}
-
-@media (min-width: 336px) and (max-width: 359px) and (orientation: portrait) {
-  #contact-details {
-    position: relative;
-    top: 5px;
-    left: 50px;
-  }
-
-  #facebook i {
-    position: relative;
-    top: 8px;
-    left: 140px;
-  }
-}
-
-@media (min-width: 346px) and (max-width: 359px) and (orientation: portrait) {
-  .navbar-toggler {
-    margin: -2.5rem 0 0 18rem;
-    border: none !important;
-  }
-}
-
-@media (min-width: 360px) and (max-width: 379px) and (orientation: portrait) {
-  .navbar-toggler {
-    margin: -2.5rem 0 0 19rem;
-    border: none !important;
-  }
-}
-
-@media (min-width: 360px) and (max-width: 432px) and (orientation: portrait) {
+@media (min-width: 360px) and (max-width: 854px) {
   #contact-details {
     position: relative;
     top: -5px;
-    left: 50px;
+    left: 60px;
   }
 
   #facebook i {
     position: relative;
-    top: 34px;
+    top: 32px;
     left: -195px;
   }
 }
 
-@media (min-width: 380px) and (max-width: 396px) and (orientation: portrait) {
+@media (min-width: 384px) and (max-width: 393px) {
   .navbar-toggler {
-    margin: -2.5rem 0 0 20rem;
-    border: none !important;
+    margin-left: 20rem;
   }
 }
 
-@media (min-width: 397px) and (max-width: 420px) and (orientation: portrait) {
+@media (min-width: 400px) and (max-width: 414px) {
   .navbar-toggler {
-    margin: -2.5rem 0 0 21rem;
-    border: none !important;
+    margin-left: 21rem;
   }
 }
 
-@media (min-width: 421px) and (max-width: 432px) and (orientation: portrait) {
+@media (min-width: 427px) and (max-width: 432px) {
   .navbar-toggler {
-    margin: -2.5rem 0 0 22rem;
-    border: none !important;
+    margin-left: 22rem;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 504px) {
+  .navbar-toggler {
+    margin-left: 25rem;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 768px) {
+  .navbar ul {
+    margin-top: 1.5rem;
+  }
+
+  .navbar li {
+    font-size: 1.3rem;
+  }
+}
+
+@media (min-width: 534px) and (max-width: 535px) {
+  .navbar-toggler {
+    margin-left: 28rem;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 608px) {
+  .navbar-toggler {
+    margin-top: -2.7rem;
+    margin-left: 32rem;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 854px) {
+  #logo {
+    max-width: 17%;
+    margin: -8px 0 -7px 10px;
+  }
+}
+
+@media (min-width: 720px) and (max-width: 721px) {
+  .navbar-toggler-icon {
+    width: 2.3rem !important;
+  }
+
+  .navbar-toggler {
+    margin-top: -3.6rem;
+    margin-left: 39rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 769px) {
+  .navbar-toggler {
+    margin-top: -3.7rem;
+    margin-left: 41.5rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 800px) {
+  .navbar-toggler-icon {
+    width: 2.6rem !important;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 854px) {
+  .navbar ul {
+    margin-top: 2rem;
+  }
+
+  .navbar li {
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 801px) {
+  .navbar-toggler {
+    margin: -3.9rem 0 0 43.6rem;
+  }
+}
+
+@media (min-width: 854px) and (max-width: 855px) {
+  .navbar-toggler-icon {
+    width: 2.9rem !important;
+  }
+
+  .navbar-toggler {
+    margin: -4.2rem 0 0 47rem;
+  }
+}
+
+@media (min-width: 1000px) and (max-width: 1024px) {
+  .navbar ul {
+    margin-left: -382px;
+  }
+
+  i {
+    position: relative;
+    top: 2px;
   }
 }
