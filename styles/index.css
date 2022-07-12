@@ -15,8 +15,10 @@ body {
 
 .fa-phone,
 .fa-envelope {
-  margin: 3px 10px 0 0;
+  margin: 3px 10px -5px 0;
   font-size: 1rem;
+  position: relative;
+  top: 2px;
 }
 
 .navbar {
@@ -498,7 +500,7 @@ body {
 
 @media (min-width: 320px) and (max-width: 432px) {
   #hero-image {
-    top: 261px;
+    top: 299px;
   }
 
   #biography {
@@ -536,7 +538,7 @@ body {
   }
 
   #hero-image {
-    height: 52%;
+    height: 45%;
   }
 
   #services-button {
@@ -651,10 +653,6 @@ body {
   .navbar-toggler {
     margin-left: 18rem;
   }
-
-  #tag-line {
-    font-size: 1rem;
-  }
 }
 
 @media (min-width: 360px) and (max-width: 384px) {
@@ -663,27 +661,39 @@ body {
   }
 }
 
+@media (min-width: 360px) and (max-width: 400px) {
+  #business-name {
+    left: -225px;
+  }
+}
+
 @media (min-width: 360px) and (max-width: 432px) {
   #hero-image {
-    width: 400px;
+    width: 250px;
   }
 
   #business-name {
     top: 30px;
-    left: -240px;
     font-size: 4rem;
   }
 
   #tag-line {
     text-align: center;
-    top: 370px;
-    left: -23px;
+    top: 354px;
+    left: -14px;
     margin-left: -340px;
     line-height: 1.5;
+    font-size: 1rem;
   }
 
   #reviews-heading {
     font-size: 1.7rem;
+  }
+}
+
+@media (min-width: 360px) and (max-width: 379px) {
+  #tag-line {
+    font-size: 1.1rem;
   }
 }
 
@@ -702,10 +712,6 @@ body {
 }
 
 @media (min-width: 384px) and (max-width: 432px) {
-  #tag-line {
-    font-size: 1rem;
-  }
-
   #bio-image {
     left: -10.5rem;
   }
@@ -714,6 +720,10 @@ body {
 @media (min-width: 384px) and (max-width: 393px) {
   .navbar-toggler {
     margin-left: 20rem;
+  }
+
+  #tag-line {
+    font-size: 1.25rem;
   }
 }
 
@@ -733,11 +743,25 @@ body {
   .navbar-toggler {
     margin-left: 21rem;
   }
+
+  #tag-line {
+    font-size: 1.4rem;
+  }
+}
+
+@media (min-width: 411px) and (max-width: 432px) {
+  #business-name {
+    left: -200px;
+  }
 }
 
 @media (min-width: 427px) and (max-width: 432px) {
   .navbar-toggler {
     margin-left: 22rem;
+  }
+
+  #tag-line {
+    font-size: 1.5rem;
   }
 
   #services-button {
@@ -767,23 +791,29 @@ body {
   .navbar-toggler {
     margin-left: 25rem;
   }
+
+  #tag-line {
+    font-size: 1.5rem;
+  }
 }
 
 @media (min-width: 480px) and (max-width: 534px) {
   #hero-image {
-    width: 450px;
-    top: 230px;
+    width: 350px;
+    top: 299px;
   }
 
   #business-name {
-    top: 10px;
-    left: -160px;
-    font-size: 4rem;
+    top: 40px;
+    left: -230px;
+    font-size: 4.5rem;
   }
 
   #tag-line {
-    left: -102px;
-    top: 300px;
+    left: -30px;
+    top: 350px;
+    text-align: center;
+    margin-left: -350px;
   }
 
   #reviews-heading {
@@ -818,6 +848,10 @@ body {
 @media (min-width: 504px) and (max-width: 534px) {
   .carousel {
     margin-left: 1.7rem;
+  }
+
+  #tag-line {
+    font-size: 1.6rem;
   }
 
   #biography {
@@ -856,17 +890,22 @@ body {
   }
 
   #hero-image {
-    width: 45%;
+    top: 283px;
+    height: 48%;
+    width: 75%;
   }
 
   #business-name {
     top: 20px;
-    left: -18px;
-    font-size: 4.2rem;
+    left: -247px;
+    font-size: 4.6rem;
   }
 
   #tag-line {
-    left: -131px;
+    top: 330px;
+    left: -42px;
+    text-align: center;
+    margin-left: -350px;
   }
 
   #bio-image {
@@ -878,12 +917,6 @@ body {
   }
 }
 
-@media (min-width: 600px) and (max-width: 720px) {
-  #tag-line {
-    top: 310px;
-  }
-}
-
 @media (min-width: 600px) and (max-width: 854px) {
   .carousel {
     padding: 0px;
@@ -892,11 +925,6 @@ body {
   #logo {
     max-width: 17%;
     margin: -8px 0 -7px 10px;
-  }
-
-  #hero-image {
-    top: 168px;
-    height: 65%;
   }
 }
 
@@ -911,21 +939,27 @@ body {
   }
 
   #hero-image {
-    width: 160%;
+    height: 50%;
+    top: 272px;
+    width: 60%;
   }
 
   #business-name {
-    top: 24px;
-    left: 0px;
-    font-size: 4.7rem;
+    top: 20px;
+    left: -150px;
+    font-size: 4.8rem;
   }
 
   #tag-line {
-    left: -142px;
+    top: 365px;
+    left: -105px;
+    text-align: center;
+    margin-left: -257px;
   }
 
   #bio-image {
     left: -1.9rem;
+    max-width: 90%;
   }
 
   #services-button {
@@ -977,8 +1011,9 @@ body {
   }
 
   #tag-line {
-    top: 325px;
-    left: -170px;
+    top: 405px;
+    left: 28px;
+    text-align: center;
   }
 
   #bio-image {
@@ -999,11 +1034,13 @@ body {
 
   #hero-image {
     width: 50%;
+    height: 75%;
+    top: 136px;
   }
 
   #business-name {
-    top: 25px;
-    left: 10px;
+    top: 60px;
+    left: -36px;
   }
 
   #services-button {
@@ -1043,8 +1080,8 @@ body {
   }
 
   #tag-line {
-    top: 354px;
-    left: -175px;
+    top: 360px;
+    left: 5px;
   }
 
   #bio-image {
@@ -1069,14 +1106,20 @@ body {
     margin-left: 2.7rem;
   }
 
+  #hero-image {
+    width: 50%;
+    height: 75%;
+    top: 136px;
+  }
+
   #business-name {
     top: 45px;
-    left: 35px;
+    left: -30px;
   }
 
   #tag-line {
-    top: 385px;
-    left: -185px;
+    top: 340px;
+    left: 11px;
   }
 
   #bio-image {
@@ -1116,15 +1159,20 @@ body {
     top: 2px;
   }
 
+  #hero-image {
+    width: 50%;
+  }
+
   #business-name {
-    top: 30px;
-    left: 25px;
+    top: 65px;
+    left: -25px;
   }
 
   #tag-line {
-    margin-left: -251px;
+    font-size: 2rem;
+    margin-left: -424px;
     top: 400px;
-    left: -200px;
+    left: -100px;
   }
 
   #about {
