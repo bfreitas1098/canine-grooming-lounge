@@ -150,6 +150,14 @@ h1 {
   left: 10px;
 }
 
+#first-list,
+#second-list,
+#third-list,
+#first-half,
+#second-half {
+  position: relative;
+}
+
 #footer {
   background-color: var(--primary-color);
   box-shadow: 0px -3px 20px 0px #8e8e8e;
@@ -189,17 +197,14 @@ h1 {
   }
 
   #first-list {
-    position: relative;
     left: -50px;
   }
 
   #second-list {
-    position: relative;
     left: -90px;
   }
 
   #second-half {
-    position: relative;
     left: 96px;
     top: -195px;
   }
@@ -284,7 +289,6 @@ h1 {
   }
 
   #third-list {
-    position: relative;
     top: 350px;
     left: -323px;
   }
@@ -347,22 +351,18 @@ h1 {
   }
 
   #first-list {
-    position: relative;
     left: -45px;
   }
 
   #second-list {
-    position: relative;
     left: -65px;
   }
 
   #first-half {
-    position: relative;
     left: 5px;
   }
 
   #second-half {
-    position: relative;
     left: 108px;
     top: -195px;
   }
@@ -391,22 +391,18 @@ h1 {
   }
 
   #first-list {
-    position: relative;
     left: -35px;
   }
 
   #second-list {
-    position: relative;
     left: -40px;
   }
 
   #first-half {
-    position: relative;
     left: 15px;
   }
 
   #second-half {
-    position: relative;
     left: 131px;
     top: -195px;
   }
@@ -455,23 +451,19 @@ h1 {
   }
 
   #first-list {
-    position: relative;
     left: -40px;
   }
 
   #second-list {
-    position: relative;
     left: -30px;
   }
 
   #third-list {
-    position: relative;
     top: 380px;
     left: -329px;
   }
 
   #second-half {
-    position: relative;
     left: 135px;
     top: -209px;
   }
@@ -552,23 +544,19 @@ h1 {
   }
 
   #first-list {
-    position: relative;
     left: -30px;
   }
 
   #second-list {
-    position: relative;
     left: -20px;
   }
 
   #third-list {
-    position: relative;
     top: 480px;
     left: -365px;
   }
 
   #second-half {
-    position: relative;
     left: 9.8rem;
     top: -15.8rem;
   }
@@ -622,18 +610,15 @@ h1 {
   }
 
   #first-list {
-    position: relative;
     left: -1.5rem;
   }
 
   #third-list {
-    position: relative;
     left: -22.4rem;
     top: 30rem;
   }
 
   #second-half {
-    position: relative;
     top: -15.8rem;
     left: 10.1rem;
   }
@@ -651,13 +636,11 @@ h1 {
   }
 
   #third-list {
-    position: relative;
     left: -21rem;
     top: 30rem;
   }
 
   #second-half {
-    position: relative;
     top: -15.8rem;
     left: 9rem;
   }
@@ -675,23 +658,19 @@ h1 {
   }
 
   #first-list {
-    position: relative;
     left: -1rem;
   }
 
   #second-list {
-    position: relative;
     left: 1.5rem;
   }
 
   #third-list {
-    position: relative;
     left: -21.9rem;
     top: 30rem;
   }
 
   #second-half {
-    position: relative;
     top: -15.7rem;
     left: 11.4rem;
   }
@@ -709,23 +688,19 @@ h1 {
   }
 
   #first-list {
-    position: relative;
     left: -1rem;
   }
 
   #second-list {
-    position: relative;
     left: 2.5rem;
   }
 
   #third-list {
-    position: relative;
     top: 30rem;
     left: -21.9rem;
   }
 
   #second-half {
-    position: relative;
     top: -15.7rem;
     left: 12.3rem;
   }
@@ -743,18 +718,15 @@ h1 {
   }
 
   #second-list {
-    position: relative;
     left: 4rem;
   }
 
   #third-list {
-    position: relative;
     top: 30rem;
     left: -21rem;
   }
 
   #second-half {
-    position: relative;
     top: -15.8rem;
     left: 13rem;
   }
@@ -782,19 +754,16 @@ h1 {
   }
 
   #second-list {
-    position: relative;
     left: -2rem;
   }
 
   #third-list {
-    position: relative;
     left: -3rem;
   }
 }
 
 @media (min-width: 504px) and (max-width: 534px) {
   #first-list {
-    position: relative;
     left: -2rem;
   }
 }
@@ -809,12 +778,10 @@ h1 {
   }
 
   #second-list {
-    position: relative;
     left: -1.3rem;
   }
 
   #third-list {
-    position: relative;
     left: -1.5rem;
   }
 }
@@ -844,17 +811,14 @@ h1 {
   }
 
   #first-list {
-    position: relative;
     left: -1rem;
   }
 
   #second-list {
-    position: relative;
     left: 1rem;
   }
 
   #third-list {
-    position: relative;
     left: 1.5rem;
   }
 }
@@ -893,19 +857,16 @@ h1 {
 
   #second-list {
     margin-left: -3rem;
-    position: relative;
     left: -0.5rem;
   }
 }
 
 @media (min-width: 720px) and (max-width: 768px) {
   #first-list {
-    position: relative;
     left: -1.5rem;
   }
 
   #third-list {
-    position: relative;
     left: 2rem;
   }
 }
@@ -935,7 +896,6 @@ h1 {
   }
 
   #second-list {
-    position: relative;
     left: -2rem;
   }
 }
@@ -961,17 +921,14 @@ h1 {
   }
 
   #first-list {
-    position: relative;
     left: -1.5rem;
   }
 
   #second-list {
-    position: relative;
     left: -1rem;
   }
 
   #third-list {
-    position: relative;
     left: 3rem;
   }
 }
@@ -1005,18 +962,15 @@ h1 {
   }
 
   #first-list {
-    position: relative;
     left: 3rem;
     margin-left: -6rem;
   }
 
   #second-list {
-    position: relative;
     left: 1rem;
   }
 
   #third-list {
-    position: relative;
     left: 3rem;
   }
 }
