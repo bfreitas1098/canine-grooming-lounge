@@ -582,7 +582,7 @@ h1 {
 
 @media (min-width: 360px) and (max-width: 534px) {
   #full-grooming-section {
-    margin-left: 6rem;
+    margin: 0 0 12rem 5.6rem;
   }
 }
 
