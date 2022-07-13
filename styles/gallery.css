@@ -134,13 +134,14 @@ body {
     left: 150px !important;
   }
 
-  .btn {
-    max-width: 90%;
-    margin: 0 0 6rem -2.7rem;
-  }
-
   #contact-details {
     left: 45px !important;
+  }
+}
+
+@media (min-width: 214px) and (max-width: 250px) {
+  .btn {
+    margin-left: -2.8rem;
   }
 }
 
@@ -222,6 +223,13 @@ body {
   }
 }
 
+@media (min-width: 214px) and (max-width: 800px) {
+  .btn {
+    margin-right: 0;
+    max-width: 90%;
+  }
+}
+
 @media (min-width: 214px) and (max-width: 854px) {
   .navbar ul {
     margin-left: 0;
@@ -241,11 +249,6 @@ body {
     left: 190px !important;
   }
 
-  .btn {
-    max-width: 90%;
-    margin: 0 0 6rem -2.7rem;
-  }
-
   #contact-details {
     left: 65px !important;
   }
@@ -256,24 +259,20 @@ body {
     left: 220px !important;
   }
 
-  .btn {
-    max-width: 90%;
-    margin: 0 0 6rem -2.5rem;
-  }
-
   #contact-details {
     left: 80px !important;
+  }
+}
+
+@media (min-width: 276px) and (max-width: 320px) {
+  .btn {
+    margin-left: -2.6rem;
   }
 }
 
 @media (min-width: 320px) and (max-width: 321px) {
   .navbar-toggler {
     margin-left: 16rem;
-  }
-
-  .btn {
-    max-width: 90%;
-    margin: 0 0 6rem -2.5rem;
   }
 
   #contact-details {
@@ -360,8 +359,7 @@ body {
   }
 
   .btn {
-    max-width: 90%;
-    margin: 0 0 6rem -2.2rem;
+    margin-left: -2.2rem;
   }
 }
 
@@ -383,10 +381,11 @@ body {
   .navbar-toggler {
     margin-left: 20rem;
   }
+}
 
+@media (min-width: 384px) and (max-width: 432px) {
   .btn {
-    max-width: 90%;
-    margin: 0 0 6rem -2.1rem;
+    margin-left: -2.1rem;
   }
 }
 
@@ -394,21 +393,11 @@ body {
   .navbar-toggler {
     margin-left: 21rem;
   }
-
-  .btn {
-    max-width: 90%;
-    margin: 0 0 6rem -2.1rem;
-  }
 }
 
 @media (min-width: 427px) and (max-width: 432px) {
   .navbar-toggler {
     margin-left: 22rem;
-  }
-
-  .btn {
-    max-width: 90%;
-    margin: 0 0 6rem -2.1rem;
   }
 }
 
@@ -416,10 +405,11 @@ body {
   .navbar-toggler {
     margin-left: 25rem;
   }
+}
 
+@media (min-width: 480px) and (max-width: 534px) {
   .btn {
-    max-width: 90%;
-    margin: 0 0 6rem -1.8rem;
+    margin-left: -1.9rem;
   }
 }
 
@@ -437,11 +427,6 @@ body {
   .navbar-toggler {
     margin-left: 28rem;
   }
-
-  .btn {
-    max-width: 90%;
-    margin: 0 0 6rem -1.8rem;
-  }
 }
 
 @media (min-width: 600px) and (max-width: 608px) {
@@ -451,8 +436,7 @@ body {
   }
 
   .btn {
-    max-width: 90%;
-    margin: 0 0 6rem -1.5rem;
+    margin-left: -1.5rem;
   }
 }
 
@@ -469,20 +453,17 @@ body {
   }
 
   .navbar-toggler {
-    margin-top: -3.6rem;
-    margin-left: 39rem;
+    margin: -3.6rem 0 0 39rem;
   }
 
   .btn {
-    max-width: 90%;
-    margin: 0 0 6rem -1.1rem;
+    margin-left: -1.1rem;
   }
 }
 
 @media (min-width: 768px) and (max-width: 769px) {
   .navbar-toggler {
-    margin-top: -3.7rem;
-    margin-left: 41.5rem;
+    margin: -3.7rem 0 0 41.5rem;
   }
 }
 
@@ -492,8 +473,7 @@ body {
   }
 
   .btn {
-    max-width: 90%;
-    margin: 0 0 6rem -1rem;
+    margin-left: -1rem;
   }
 }
 
@@ -523,8 +503,7 @@ body {
   }
 
   .btn {
-    max-width: 30%;
-    margin: 0 1rem 6rem 0;
+    margin-right: 1rem;
   }
 
   #gallery-container {
@@ -532,19 +511,24 @@ body {
   }
 }
 
-@media (min-width: 1000px) and (max-width: 1024px) {
-  .navbar ul {
-    margin-left: -382px;
+@media (min-width: 854px) and (max-width: 1024px) {
+  .btn {
+    max-width: 30%;
   }
+}
 
+@media (min-width: 1000px) and (max-width: 1024px) {
   i {
     position: relative;
     top: 2px;
   }
 
+  .navbar ul {
+    margin-left: -382px;
+  }
+
   .btn {
-    max-width: 30%;
-    margin: 0 2rem 6rem 0;
+    margin-right: 2rem;
   }
 
   #gallery-container {
