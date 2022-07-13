@@ -158,12 +158,56 @@ h4 {
 }
 
 @media (min-width: 214px) and (max-width: 215px) {
+  main {
+    height: 43rem;
+  }
+
+  h1 {
+    font-size: 1.35rem;
+  }
+
+  h4 {
+    font-size: 1rem;
+  }
+
   .navbar-toggler {
     left: 150px !important;
   }
 
+  .details {
+    font-size: 0.7rem;
+  }
+
+  .hours-list li {
+    font-size: 0.9rem;
+  }
+
   #contact-details {
     left: 45px !important;
+  }
+
+  #hours-list-1 {
+    position: relative;
+    left: 0rem;
+  }
+
+  #hours-list-2 {
+    position: relative;
+    top: 5.5rem;
+    left: -7.8rem;
+  }
+
+  #hours-list-3 {
+    position: relative;
+    top: 10rem;
+    left: -15.8rem;
+  }
+
+  #map-image {
+    max-width: 32%;
+    position: relative;
+    top: 48rem;
+    left: -42.2rem;
   }
 }
 
@@ -246,6 +290,10 @@ h4 {
 }
 
 @media (min-width: 214px) and (max-width: 854px) {
+  main {
+    margin: 3rem 0 0 -7rem;
+  }
+
   .navbar ul {
     margin-left: 0;
   }
@@ -253,35 +301,119 @@ h4 {
   .navbar li {
     font-size: 1rem;
   }
+}
 
+@media (min-width: 214px) and (max-width: 1024px) {
   #wrapper {
     overflow-x: hidden;
   }
 }
 
 @media (min-width: 250px) and (max-width: 251px) {
+  main {
+    height: 45rem;
+  }
+
+  h1 {
+    font-size: 1.6rem;
+  }
+
+  h4 {
+    font-size: 1.3rem;
+  }
+
   .navbar-toggler {
     left: 190px !important;
+  }
+
+  .details {
+    font-size: 0.9rem;
+  }
+
+  .hours-list li {
+    font-size: 0.9rem;
   }
 
   #contact-details {
     left: 65px !important;
   }
+
+  #hours-list-3 {
+    position: relative;
+    top: 7rem;
+    left: -17.7rem;
+  }
+
+  #map-image {
+    max-width: 37%;
+    position: relative;
+    top: 48rem;
+    left: -42.1rem;
+  }
 }
 
 @media (min-width: 276px) and (max-width: 277px) {
+  main {
+    height: 45rem;
+  }
+
+  h1 {
+    font-size: 1.75rem;
+  }
+
+  h4 {
+    font-size: 1.3rem;
+  }
+
   .navbar-toggler {
     left: 220px !important;
+  }
+
+  .details {
+    font-size: 1rem;
+  }
+
+  .hours-list li {
+    font-size: 0.9rem;
   }
 
   #contact-details {
     left: 80px !important;
   }
+
+  #hours-list-3 {
+    position: relative;
+    top: 7rem;
+    left: -17.7rem;
+  }
+
+  #map-image {
+    max-width: 41%;
+    position: relative;
+    top: 48rem;
+    left: -42rem;
+  }
 }
 
 @media (min-width: 320px) and (max-width: 321px) {
+  main {
+    height: 72rem;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  h4 {
+    font-size: 1.5rem;
+  }
+
   .navbar-toggler {
     margin-left: 16rem;
+  }
+
+  .details {
+    font-size: 1.1rem;
   }
 
   #contact-details {
@@ -300,6 +432,19 @@ h4 {
     position: relative;
     top: 8px;
     left: 105px;
+  }
+
+  #hours-list-3 {
+    position: relative;
+    top: 8rem;
+    left: -21.6rem;
+  }
+
+  #map-image {
+    max-width: 47%;
+    position: relative;
+    top: 57rem;
+    left: -41.7rem;
   }
 
   #footer {
@@ -362,9 +507,45 @@ h4 {
   }
 }
 
+@media (min-width: 360px) and (max-width: 361px) {
+  #map-image {
+    left: -42rem;
+  }
+}
+
 @media (min-width: 360px) and (max-width: 379px) {
+  main {
+    height: 75rem;
+  }
+
+  h1 {
+    font-size: 2.3rem;
+  }
+
   .navbar-toggler {
     margin-left: 18rem;
+  }
+
+  .details {
+    font-size: 1.3rem;
+  }
+
+  #hours-list-2 {
+    position: relative;
+    top: 1.3rem;
+    left: -0.5rem;
+  }
+
+  #hours-list-3 {
+    position: relative;
+    top: 8rem;
+    left: -21.6rem;
+  }
+
+  #map-image {
+    max-width: 55%;
+    position: relative;
+    top: 59rem;
   }
 }
 
@@ -382,27 +563,172 @@ h4 {
   }
 }
 
+@media (min-width: 375px) and (max-width: 379px) {
+  #map-image {
+    left: -41.6rem;
+  }
+}
+
+@media (min-width: 384px) and (max-width: 385px) {
+  #map-image {
+    left: -42.2rem;
+  }
+}
+
 @media (min-width: 384px) and (max-width: 393px) {
+  main {
+    height: 70rem;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+  }
+
   .navbar-toggler {
     margin-left: 20rem;
+  }
+
+  .details {
+    font-size: 1.3rem;
+  }
+
+  #hours-list-2 {
+    position: relative;
+    top: 1.3rem;
+    left: 1rem;
+  }
+
+  #hours-list-3 {
+    position: relative;
+    top: 8rem;
+    left: -21.6rem;
+  }
+
+  #map-image {
+    max-width: 60%;
+    position: relative;
+    top: 59rem;
+  }
+}
+
+@media (min-width: 390px) and (max-width: 393px) {
+  #map-image {
+    margin-left: -42rem;
+  }
+}
+
+@media (min-width: 400px) and (max-width: 401px) {
+  #map-image {
+    left: -41.7rem;
   }
 }
 
 @media (min-width: 400px) and (max-width: 414px) {
+  main {
+    height: 70rem;
+  }
+
+  h1 {
+    font-size: 2.7rem;
+  }
+
   .navbar-toggler {
     margin-left: 21rem;
+  }
+
+  #hours-list-2 {
+    position: relative;
+    top: 1.3rem;
+    left: 1rem;
+  }
+
+  #hours-list-3 {
+    position: relative;
+    top: 8rem;
+    left: -21.6rem;
+  }
+
+  #map-image {
+    max-width: 60%;
+    position: relative;
+    top: 59rem;
+  }
+}
+
+@media (min-width: 411px) and (max-width: 414px) {
+  #map-image {
+    left: -41.2rem;
   }
 }
 
 @media (min-width: 427px) and (max-width: 432px) {
+  main {
+    height: 70rem;
+  }
+
+  h1 {
+    font-size: 2.7rem;
+  }
+
   .navbar-toggler {
     margin-left: 22rem;
+  }
+
+  #hours-list-2 {
+    position: relative;
+    top: 1.3rem;
+    left: 1rem;
+  }
+
+  #hours-list-3 {
+    position: relative;
+    top: 8rem;
+    left: -21.6rem;
+  }
+
+  #map-image {
+    max-width: 60%;
+    position: relative;
+    top: 59rem;
+    left: -40.7rem;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 481px) {
+  #map-image {
+    left: -40rem;
   }
 }
 
 @media (min-width: 480px) and (max-width: 504px) {
+  main {
+    height: 77rem;
+  }
+
+  h1 {
+    font-size: 2.7rem;
+  }
+
   .navbar-toggler {
     margin-left: 25rem;
+  }
+
+  #hours-list-2 {
+    position: relative;
+    top: 1.3rem;
+    left: 1rem;
+  }
+
+  #hours-list-3 {
+    position: relative;
+    top: 8rem;
+    left: -21.6rem;
+  }
+
+  #map-image {
+    max-width: 65%;
+    position: relative;
+    top: 59rem;
   }
 }
 
@@ -416,16 +742,47 @@ h4 {
   }
 }
 
+@media (min-width: 504px) and (max-width: 505px) {
+  #map-image {
+    left: -39.4rem;
+  }
+}
+
 @media (min-width: 534px) and (max-width: 535px) {
+  main {
+    height: 80rem;
+  }
+
   .navbar-toggler {
     margin-left: 28rem;
+  }
+
+  #map-image {
+    max-width: 80%;
+    position: relative;
+    top: 56rem;
+    left: -41.2rem;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 601px) {
+  #map-image {
+    left: -40rem;
   }
 }
 
 @media (min-width: 600px) and (max-width: 608px) {
+  main {
+    height: 85rem;
+  }
+
   .navbar-toggler {
-    margin-top: -2.7rem;
-    margin-left: 32rem;
+    margin: -2.7rem 0 0 32rem;
+  }
+
+  #map-image {
+    position: relative;
+    top: 57rem;
   }
 }
 
@@ -436,27 +793,61 @@ h4 {
   }
 }
 
+@media (min-width: 604px) and (max-width: 608px) {
+  #map-image {
+    left: -39.8rem;
+  }
+}
+
 @media (min-width: 720px) and (max-width: 721px) {
+  main {
+    height: 85rem;
+  }
+
   .navbar-toggler-icon {
     width: 2.3rem !important;
   }
 
   .navbar-toggler {
-    margin-top: -3.6rem;
-    margin-left: 39rem;
+    margin: -3.6rem 0 0 39rem;
+  }
+
+  #map-image {
+    position: relative;
+    top: 57rem;
+    left: -36.3rem;
   }
 }
 
 @media (min-width: 768px) and (max-width: 769px) {
   .navbar-toggler {
-    margin-top: -3.7rem;
-    margin-left: 41.5rem;
+    margin: -3.7rem 0 0 41.5rem;
+  }
+
+  #map-image {
+    position: relative;
+    top: 57rem;
+    left: -34.7rem;
   }
 }
 
 @media (min-width: 768px) and (max-width: 800px) {
+  main {
+    height: 85rem;
+  }
+
   .navbar-toggler-icon {
     width: 2.6rem !important;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 801px) {
+  .navbar-toggler {
+    margin: -3.9rem 0 0 43.6rem;
+  }
+
+  #map-image {
+    left: -33.8rem;
   }
 }
 
@@ -468,15 +859,18 @@ h4 {
   .navbar li {
     font-size: 1.5rem;
   }
-}
 
-@media (min-width: 800px) and (max-width: 801px) {
-  .navbar-toggler {
-    margin: -3.9rem 0 0 43.6rem;
+  #map-image {
+    position: relative;
+    top: 57rem;
   }
 }
 
 @media (min-width: 854px) and (max-width: 855px) {
+  main {
+    height: 85rem;
+  }
+
   .navbar-toggler-icon {
     width: 2.9rem !important;
   }
@@ -484,15 +878,24 @@ h4 {
   .navbar-toggler {
     margin: -4.2rem 0 0 47rem;
   }
+
+  #map-image {
+    left: -31.8rem;
+  }
 }
 
 @media (min-width: 1000px) and (max-width: 1024px) {
-  .navbar ul {
-    margin-left: -382px;
-  }
-
   i {
     position: relative;
     top: 2px;
+  }
+
+  main {
+    grid-template-columns: 655px 500px;
+    margin-left: -6rem;
+  }
+
+  .navbar ul {
+    margin-left: -382px;
   }
 }
