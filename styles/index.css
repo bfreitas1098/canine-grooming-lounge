@@ -26,6 +26,10 @@ body {
   box-shadow: var(--box-shadow);
 }
 
+.navbar-toggler {
+  position: relative;
+}
+
 .navbar ul {
   margin-left: -380px;
 }
@@ -67,6 +71,7 @@ body {
 
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
+  position: relative;
   margin-top: 4rem;
 }
 
@@ -79,13 +84,23 @@ body {
   height: 3.5rem;
 }
 
+#contact-details {
+  position: relative;
+}
+
 #instagram i {
   margin: 2px 25px 0 0;
   font-size: 1.3rem;
+  position: relative;
 }
 
 #facebook i {
   font-size: 1.25rem;
+  position: relative;
+}
+
+#phone-number {
+  position: relative;
 }
 
 #phone-number,
@@ -161,6 +176,7 @@ body {
   border-radius: 8px;
   box-shadow: var(--box-shadow);
   margin-left: 12rem;
+  position: relative;
 }
 
 #biography {
@@ -168,6 +184,7 @@ body {
   line-height: 1.45;
   width: 450px;
   margin-left: 5rem;
+  position: relative;
 }
 
 #services-button {
@@ -250,12 +267,10 @@ body {
 
 @media (min-width: 214px) and (max-width: 276px) {
   .fa-phone {
-    position: relative;
     left: 22px;
   }
 
   .fa-envelope {
-    position: relative;
     top: 15px;
     left: -118px;
   }
@@ -270,7 +285,6 @@ body {
   }
 
   .navbar-toggler {
-    position: relative;
     top: -51px !important;
     border: none !important;
   }
@@ -285,24 +299,20 @@ body {
 
   #contact-details {
     font-size: 0.6rem;
-    position: relative;
     top: -10px !important;
   }
 
   #phone-number {
-    position: relative;
     left: 15px;
   }
 
   #instagram i {
-    position: relative;
     top: 20px !important;
     left: -140px !important;
     margin: 0;
   }
 
   #facebook i {
-    position: relative;
     top: 19px !important;
     left: -105px !important;
   }
@@ -324,13 +334,11 @@ body {
   #hero-image {
     height: 50%;
     width: 65%;
-    position: relative;
     top: 160px;
   }
 
   #business-name {
     font-size: 2.2rem;
-    position: relative;
     top: 25px;
     left: -115px;
     margin: 0;
@@ -338,7 +346,6 @@ body {
 
   #tag-line {
     font-size: 0.8rem;
-    position: relative;
     top: 215px;
   }
 
@@ -353,7 +360,6 @@ body {
   }
 
   #biography {
-    position: relative;
     font-size: 1rem;
   }
 
@@ -455,19 +461,16 @@ body {
   }
 
   #contact-details {
-    position: relative;
     top: 5px;
     left: 35px;
   }
 
   #instagram i {
-    position: relative;
     top: 9px !important;
     left: 70px !important;
   }
 
   #facebook i {
-    position: relative;
     top: 8px;
     left: 105px;
   }
@@ -554,13 +557,11 @@ body {
 
 @media (min-width: 320px) and (max-width: 854px) {
   .fa-phone {
-    position: relative;
     top: -26px;
     left: 55px;
   }
 
   .fa-envelope {
-    position: relative;
     top: 1px;
     left: 4px;
   }
@@ -599,13 +600,11 @@ body {
 
   #phone-number {
     margin-left: -10rem;
-    position: relative;
     top: -26px;
     left: 210px;
   }
 
   #instagram i {
-    position: relative;
     top: 33px;
     left: -225px;
   }
@@ -616,7 +615,6 @@ body {
 
   #bio-image {
     height: 32rem;
-    position: relative;
     top: -30px;
   }
 
@@ -624,7 +622,6 @@ body {
     text-align: center;
     width: 95%;
     margin: 0;
-    position: relative;
     top: 50px;
   }
 
@@ -645,7 +642,6 @@ body {
 @media (min-width: 320px) and (max-width: 1024px) {
   .carousel-control-next-icon {
     margin-left: 0;
-    position: relative;
   }
 }
 
@@ -699,13 +695,11 @@ body {
 
 @media (min-width: 360px) and (max-width: 854px) {
   #contact-details {
-    position: relative;
     top: -5px;
     left: 60px;
   }
 
   #facebook i {
-    position: relative;
     top: 32px;
     left: -195px;
   }
@@ -881,8 +875,7 @@ body {
 
 @media (min-width: 600px) and (max-width: 608px) {
   .navbar-toggler {
-    margin-top: -2.7rem;
-    margin-left: 32rem;
+    margin: -2.7rem 0 0 32rem;
   }
 
   .carousel {
@@ -934,8 +927,7 @@ body {
   }
 
   .navbar-toggler {
-    margin-top: -3.6rem;
-    margin-left: 39rem;
+    margin: -3.6rem 0 0 39rem;
   }
 
   #hero-image {
@@ -1002,8 +994,7 @@ body {
 
 @media (min-width: 768px) and (max-width: 769px) {
   .navbar-toggler {
-    margin-top: -3.7rem;
-    margin-left: 41.5rem;
+    margin: -3.7rem 0 0 41.5rem;
   }
 
   #business-name {
