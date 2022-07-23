@@ -124,38 +124,47 @@ body {
   background-color: var(--primary-color);
   display: flex;
   flex-grow: 1;
-  height: 34rem;
+  height: 39rem;
   color: #ffffff;
 }
 
+#overlay {
+  position: absolute;
+  width: 1425px;
+  height: 650px;
+  background-color: rgba(87, 171, 204, 0.7);
+}
+
 #hero-image {
-  width: 600px;
-  height: 92%;
-  position: relative;
-  top: 43px;
+  width: 1425px;
+  height: 650px;
+}
+
+#hero-heading {
+  position: absolute;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: var(--title-font);
 }
 
 #business-name {
-  text-align: left;
-  text-transform: uppercase;
-  font-family: var(--title-font);
-  font-size: 100px;
+  font-size: 115px;
   font-weight: 700;
   line-height: 1.2;
-  text-shadow: -1px -1px 20px #4aa5c9, 1px -1px 20px #4aa5c9,
-    -1px 1px 20px #4aa5c9, 1px 1px 20px #4aa5c9;
+  letter-spacing: 10px;
+  /* text-shadow: -1px -1px 10px #57abcc, 1px -1px 10px #57abcc,
+    -1px 1px 10px #57abcc, 1px 1px 10px #57abcc; */
   position: relative;
-  top: 50px;
-  left: 150px;
+  top: 25px;
+  left: 415px;
 }
 
 #tag-line {
-  font-size: 30px;
+  font-size: 35px;
   text-transform: uppercase;
   position: relative;
-  top: 440px;
-  left: 115px;
-  margin-left: -464px;
+  top: 25px;
+  left: 410px;
 }
 
 #about {
@@ -188,16 +197,18 @@ body {
 }
 
 #services-button {
+  font-family: "Source Sans Pro", sans-serif;
   background-color: var(--secondary-color);
   color: #ffffff;
   padding: 18px;
   border-radius: 2px;
   text-decoration: none;
+  text-transform: uppercase;
   font-size: 1.3rem;
   transition: 500ms cubic-bezier(0.165, 0.84, 0.44, 1);
   position: relative;
-  top: -280px;
-  left: 768px;
+  top: 57px;
+  left: 412px;
 }
 
 #services-button:hover {
