@@ -13,14 +13,6 @@ body {
   overflow-x: hidden;
 }
 
-.fa-phone,
-.fa-envelope {
-  margin: 3px 10px -5px 0;
-  font-size: 1rem;
-  position: relative;
-  top: 2px;
-}
-
 .navbar {
   background-color: #ffffff !important;
   box-shadow: var(--box-shadow);
@@ -81,31 +73,33 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 3.5rem;
+  height: 4rem;
+  font-family: "Source Sans Pro", sans-serif;
 }
 
-#contact-details {
+#phone,
+#envelope {
+  margin: 3px 10px -5px 0;
+  font-size: 1.1rem;
   position: relative;
+  top: 2px;
 }
 
 #instagram i {
   margin: 2px 25px 0 0;
-  font-size: 1.3rem;
-  position: relative;
+  font-size: 1.5rem;
 }
 
 #facebook i {
-  font-size: 1.25rem;
+  font-size: 1.45rem;
   position: relative;
-}
-
-#phone-number {
-  position: relative;
+  top: -1px;
 }
 
 #phone-number,
 #email {
   margin-right: 25px;
+  font-size: 1.2rem;
 }
 
 #email,
@@ -124,24 +118,25 @@ body {
   background-color: var(--primary-color);
   display: flex;
   flex-grow: 1;
-  height: 39rem;
+  height: 45rem;
   color: #ffffff;
 }
 
 #overlay {
   position: absolute;
   width: 1425px;
-  height: 650px;
+  height: 720px;
   background-color: rgba(87, 171, 204, 0.7);
 }
 
 #hero-image {
   width: 1425px;
-  height: 650px;
+  height: 720px;
 }
 
 #hero-heading {
   position: absolute;
+  top: 13rem;
   text-transform: uppercase;
   text-align: center;
   font-family: var(--title-font);
@@ -156,7 +151,7 @@ body {
     -1px 1px 10px #57abcc, 1px 1px 10px #57abcc; */
   position: relative;
   top: 25px;
-  left: 415px;
+  left: 400px;
 }
 
 #tag-line {
@@ -164,7 +159,26 @@ body {
   text-transform: uppercase;
   position: relative;
   top: 25px;
-  left: 410px;
+  left: 400px;
+}
+
+#services-button {
+  font-family: "Source Sans Pro", sans-serif;
+  background-color: var(--secondary-color);
+  color: #ffffff;
+  padding: 1.2rem 2.5rem;
+  border-radius: 10px;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-size: 1.8rem;
+  transition: 500ms cubic-bezier(0.165, 0.84, 0.44, 1);
+  position: relative;
+  top: 5rem;
+  left: 400px;
+}
+
+#services-button:hover {
+  box-shadow: var(--box-shadow);
 }
 
 #about {
@@ -196,25 +210,6 @@ body {
   position: relative;
 }
 
-#services-button {
-  font-family: "Source Sans Pro", sans-serif;
-  background-color: var(--secondary-color);
-  color: #ffffff;
-  padding: 18px;
-  border-radius: 2px;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-size: 1.3rem;
-  transition: 500ms cubic-bezier(0.165, 0.84, 0.44, 1);
-  position: relative;
-  top: 57px;
-  left: 412px;
-}
-
-#services-button:hover {
-  box-shadow: var(--box-shadow);
-}
-
 #reviews-section {
   height: 1100px;
   background-color: #edf7fa;
@@ -241,7 +236,8 @@ body {
 
 #footer span {
   position: relative;
-  top: 25px;
+  top: 1.5rem;
+  left: 1.7rem;
 }
 
 @media (min-width: 214px) and (max-width: 215px) {

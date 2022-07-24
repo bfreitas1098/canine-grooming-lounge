@@ -20,12 +20,6 @@ h1 {
   color: var(--primary-color);
 }
 
-.fa-phone,
-.fa-envelope {
-  margin: 3px 10px 0 0;
-  font-size: 1rem;
-}
-
 .navbar {
   background-color: #ffffff !important;
   box-shadow: var(--box-shadow);
@@ -96,36 +90,6 @@ h1 {
   color: var(--primary-color);
 }
 
-#contact-details-wrapper {
-  background-color: var(--primary-color);
-  max-width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 3.5rem;
-}
-
-#instagram i {
-  margin: 2px 25px 0 0;
-  font-size: 1.3rem;
-}
-
-#facebook i {
-  font-size: 1.25rem;
-}
-
-#phone-number,
-#email {
-  margin-right: 25px;
-}
-
-#email,
-#instagram,
-#facebook {
-  text-decoration: none;
-  color: #000000;
-}
-
 #logo {
   max-width: 12%;
   margin-left: 30px;
@@ -161,7 +125,7 @@ h1 {
 #footer {
   background-color: var(--primary-color);
   box-shadow: 0px -3px 20px 0px #8e8e8e;
-  height: 7rem;
+  height: 10rem;
   font-size: 1.2rem;
   font-weight: 600;
   text-align: center;
@@ -171,7 +135,20 @@ h1 {
 
 #footer span {
   position: relative;
-  top: 25px;
+  top: 1.5rem;
+  left: 1.7rem;
+}
+
+#instagram,
+#facebook,
+#email {
+  position: relative;
+  top: 2.2rem;
+  left: 3.4rem;
+  margin-right: 3rem;
+  font-size: 1.5rem;
+  color: #000000;
+  text-decoration: none;
 }
 
 @media (min-width: 214px) and (max-width: 215px) {
